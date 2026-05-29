@@ -1,0 +1,53 @@
+npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch
+
+-- Hero V1
+<section
+      class="relative w-screen h-[580px] min-h-[580px] overflow-hidden flex justify-center items-center"
+    >
+      <div
+        class="absolute z-10 left-0 h-full w-1/2 flex flex-col justify-center items-start gap-2.5 pl-16"
+      >
+        <h1
+          class="capitalize w-[70%] font-semibold text-[80px] text-balance text-gray-800 leading-[0.8] tracking-tighter"
+        >
+          a new stand of exerllence
+        </h1>
+        <p
+          class="w-[calc(100%*0.7)] text-left font-normal text-lg text-gray-600 leading-[1.3]"
+        >
+          The largest privately hold real state investers and managers the world
+        </p>
+        <button
+          class="cursor-pointer h-10 px-5 flex justify-center items-center rounded-full bg-black text-white text-sm"
+        >
+          View all services
+        </button>
+      </div>
+      <img
+        class="w-full h-full object-cover rounded-b-[100px]"
+        src="./src/images/lance-anderson-QdAAasrZhdk-unsplash.jpg"
+        alt=""
+      />
+    </section>
+
+
+    // process build 
+    1. Planning & Design – Define requirements, budget, and architectural design for the house.
+
+2. Site Preparation – Clear the land, level the ground, and prepare the construction area.
+
+3. Foundation Work – Excavate and build the foundation to support the structure safely.
+
+4. Structural Framing – Construct columns, beams, walls, and roof framework.
+
+5. Roofing Installation – Install the roof structure and waterproofing system.
+
+6. Electrical & Plumbing – Install wiring, pipes, drainage, and utility systems.
+
+7. Wall & Exterior Finishes – Complete brickwork, plastering, windows, doors, and exterior finishes.
+
+8. Interior Finishing – Install flooring, ceilings, painting, lighting, cabinetry, and fixtures.
+
+9. Final Inspection – Check structural quality, safety systems, and finishing details.
+
+10. Handover & Completion – Clean the site and deliver the completed house ready for occupancy.

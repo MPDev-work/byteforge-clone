@@ -1,0 +1,73 @@
+@import 'tailwindcss';
+
+* {
+  font-family: 'Poppins', 'Inter', sans-serif;
+  scrollbar-width: thin;
+  scroll-behavior: smooth;
+}
+
+:root {
+  --primary-color: ;
+  --primary-tint: ;
+  --primary-shade: ;
+  --second-color: ;
+  --second-tint: ;
+  --sencond-shade: ;
+  --third-color: ;
+  --third-tint: ;
+  --third-shade: ;
+  --gray: ;
+  --gray-tint: ;
+  --gray-shade: ;
+}
+.scroll-animate {
+  animation: scroll 40s linear infinite;
+}
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+.scroll-animate1 {
+  animation: scroll1 35.5s linear infinite;
+}
+@keyframes scroll1 {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(50%);
+  }
+}
+#preview {
+  transition: 0.2s ease-in-out;
+}
+#preview.active {
+  opacity: 1;
+  background-color: rgba(0, 0, 0, 0.8);
+  transform: scale(1);
+}
+#video {
+  transform: scale(0.5);
+  transition: 0.2s ease-in-out;
+}
+#video.active {
+  transform: scale(1);
+}
+/* .video-shadow {
+  box-shadow: 0 0 50px #181818;
+} */
+.animate-scroll {
+  animation: animate-scroll 80s linear infinite;
+}
+@keyframes animate-scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}

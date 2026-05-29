@@ -1,0 +1,1278 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-12" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- link inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- link google sans flex -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,wght@6..144,1..1000&display=swap"
+      rel="stylesheet"
+    />
+    <!-- link bootstrap icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="./src/output.css" />
+    <title>ByteForge</title>
+    <!-- bg animation -->
+    <script
+      src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.9.14/dist/dotlottie-wc.js"
+      type="module"
+    ></script>
+    <!-- scrolling animation -->
+    <!-- <script src="https://unpkg.com/lenis@1.1.16/dist/lenis.min.js"></script> -->
+  </head>
+  <body id="body" class="overflow-x-hidden">
+    <nav
+      class="fixed z-[999] inset-x-12 top-5 h-14 rounded-full bg-white px-2.5 flex justify-between items-center transition duration-200"
+    >
+      <div class="h-full flex flex-row justify-start items-center gap-5">
+        <div class="h-full flex flex-row justify-start items-center gap-1.5">
+          <i class="bi bi-claude text-xl text-red-700 sm:text-base"></i>
+          <span
+            class="text-base font-semibold tracking-tight text-black sm:text-2xl"
+          >
+            ByteForge
+          </span>
+        </div>
+        <div class="w-[1.5px] h-1/2 rounded-full bg-gray-300"></div>
+        <ul class="hidden flex-row justify-start items-center gap-6 lg:flex">
+          <li>
+            <a
+              class="text-black text-sm transition duration-200 hover:text-red-700"
+              href="#"
+              >Home</a
+            >
+          </li>
+          <li>
+            <a
+              class="text-black text-sm transition duration-200 hover:text-red-700"
+              href="./about.html"
+              >About us</a
+            >
+          </li>
+          <li>
+            <a
+              class="text-black text-sm transition duration-200 hover:text-red-700"
+              href="#service"
+              >Service</a
+            >
+          </li>
+          <li>
+            <a
+              class="text-black text-sm transition duration-200 hover:text-red-700"
+              href="#"
+              >Project</a
+            >
+          </li>
+          <li>
+            <a
+              class="text-black text-sm transition duration-200 hover:text-red-700"
+              href="#"
+              >Pricing</a
+            >
+          </li>
+          <li>
+            <a
+              class="text-black text-sm transition duration-200 hover:text-red-700"
+              href="#"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div
+        class="absolute right-1 h-full flex flex-row justify-end items-center gap-5"
+      >
+        <button class="h-[86%] text-sm px-5 rounded-full text-white bg-black">
+          Get in touch
+        </button>
+      </div>
+    </nav>
+    <section
+      class="relative w-screen h-max lg:h-screen lg:min-h-[630px] flex flex-col lg:flex-row justify-between items-center lg:gap-2.5 lg:p-2.5"
+    >
+      <div
+        class="group w-full h-[480px] overflow-hidden lg:h-full lg:w-1/2 lg:rounded-3xl"
+      >
+        <!-- <img
+          class="h-full w-full object-cover transition duration-400 group-hover:scale-105"
+          src="./src/images/victor-EvczjigoKzk-unsplash.jpg"
+        /> -->
+        <video
+          class="h-full w-full object-cover transition duration-400"
+          autoplay
+          playsinline
+          muted
+          loop
+        >
+          <source src="./src/video/apple-park.mp4" type="video/mp4" />
+        </video>
+      </div>
+      <div
+        class="relative w-full h-[480px] lg:w-1/2 lg:h-full flex flex-col justify-center lg:items-start lg:gap-2.5 gap-2 bg-stone-100 lg:rounded-3xl lg:px-10 p-2.5 overflow-hidden"
+      >
+        <h1
+          class="capitalize lg:font-medium font-normal text-[62px] lg:text-[86px] text-balance tracking-tighter leading-[.9] lg:pt-[50px]"
+        >
+          a new <br />stand of <br />exerllecnce
+        </h1>
+        <p
+          class="lg:text-lg text-sm text-gray-600 lg:leading-[1.3] leading-[1.2]"
+        >
+          The largest privately hold real estate investers <br />and managers in
+          the world
+        </p>
+        <a
+          href="#service"
+          class="lg:h-12 h-10 w-max pl-2.5 pr-[2px] lg:text-sm text-xs text-black flex justify-center items-center rounded-full bg-white overflow-hidden"
+          >View all services
+          <div
+            class="lg:w-[44px] lg:h-[44px] w-[38px] h-[38px] ml-2.5 rounded-full bg-emerald-500 flex justify-center items-center"
+          >
+            <i class="bi bi-arrow-right text-white text-xl"></i>
+          </div>
+        </a>
+        <div class="w-full flex flex-row justify-between items-center mt-12">
+          <div class="w-1/2 h-full flex flex-row justify-start items-center">
+            <div
+              class="relative w-12 h-12 lg:h-16 lg:w-16 bg-emerald-500 rounded-full flex justify-center items-center"
+            >
+              <span
+                class="translate-x-1/3 lg:text-5xl text-3xl font-semibold text-black tracking-tight"
+                >+40</span
+              >
+            </div>
+            <p
+              class="lg:ml-[80px] ml-[30px] uppercase lg:text-base text-xs text-black font-medium leading-[1.2]"
+            >
+              Years of <br />
+              experience
+            </p>
+          </div>
+          <div
+            id="play"
+            class="group cursor-pointer relative lg:w-[200px] w-[140px] h-12 overflow-hidden rounded-full flex justify-center items-center"
+          >
+            <div
+              class="absolute z-10 w-full flex justify-center items-center gap-1"
+            >
+              <p class="text-white lg:text-sm text-xs">Watch preview</p>
+              <i class="bi bi-play-fill text-white text-lg"></i>
+            </div>
+            <div class="absolute z-[5] h-full w-full bg-black/40"></div>
+            <img
+              class="h-full w-full object-cover transition duration-400 group-hover:scale-105"
+              src="./src/project-image/videoBG.PNG"
+            />
+          </div>
+        </div>
+        <div
+          class="group lg:h-14 h-12 relative lg:w-full lg:bottom-5 flex flex-row justify-center items-center mt-2 lg:mt-7"
+        >
+          <input
+            class="w-full h-full border border-gray-400 rounded-full text-sm text-gray-800 pl-5 lg:pr-[180px] pr-[120px] transition duration-200 group-hover:border-1 group-hover:border-gray-900 focus:border-1 focus:border-gray-800 focus:outline-0"
+            type="email"
+            placeholder="yourmail@gmail.com"
+          />
+          <div
+            class="absolute lg:h-12 h-10 lg:w-[160px] w-[130px] flex justify-center items-center rounded-full bg-gray-800 text-white lg:text-base text-xs right-1"
+          >
+            Get start for free
+          </div>
+        </div>
+        <dotlottie-wc
+          class="absolute top-[8%] right-[-20px] lg:top-[8%] lg:right-[-40px] rotate-[30deg] scale-[-1] lg:w-[220px] lg:h-[220px] w-[120px] h-[120px]"
+          src="https://lottie.host/6cccd974-dacb-4b60-9f9b-d63c78c699c9/NBE2xhgbDQ.lottie"
+          autoplay
+          loop
+        ></dotlottie-wc>
+      </div>
+    </section>
+    <section
+      class="relative w-screen h-[50vh] min-h-[calc(630px*0.5)] flex flex-col justify-center items-start gap-2.5 overflow-x-hidden"
+    >
+      <div
+        class="top-[15%] h-[34px] left-1/2 -translate-x-1/2 absolute z-10 flex justify-center items-center pl-2 pr-4 py-1 rounded-full border border-dashed border-violet-500 overflow-hidden bg-violet-50/50"
+      >
+        <i class="bi bi-dot text-violet-500 text-xl"></i>
+        <p class="text-xs tracking-tight text-violet-500">
+          We built customer's project around the world
+        </p>
+      </div>
+      <h1
+        class="absolute z-10 w-full text-center capitalize text-[65px] font-semibold leading-[1] text-gray-800 tracking-tight"
+      >
+        your dream house <br />our
+        <span class="text-emerald-500">expertise</span>.
+      </h1>
+      <div
+        class="absolute z-[5] w-full h-full bg-[linear-gradient(to_right,_white_10%,_#ffffffc3,white_90%)]"
+      ></div>
+      <div class="w-full h-full overflow-hidden">
+        <img
+          class="relative bottom-10 w-full h-full object-contain scale-[1.5] rotate-12"
+          src="./src/bg/bg-animation.svg"
+        />
+      </div>
+
+      <h1
+        class="w-full absolute z-10 bottom-1.5 left-0 pl-12 text-2xl tracking-tight text-gray-600 font-medium leading-[1.1] py-2"
+      >
+        Our biggest project <br />
+        ever
+        <span class="uppercase text-emerald-500 text-4xl">build</span>
+      </h1>
+      <div
+        class="absolute w-[450px] text-right text-2xl font-medium z-10 right-0 pr-12 bottom-1.5 py-2 leading-[1.1] text-gray-600"
+      >
+        Find your dream property <br />
+        with
+        <span class="text-4xl font-semibold text-emerald-600 tracking-tight"
+          >ByteForge</span
+        >
+      </div>
+    </section>
+    <section
+      class="relative top-0 w-screen h-[580px] min-h-[580px] grid grid-cols-3 grid-rows-2 justify-center items-center gap-2.5 box-content p-2.5"
+    >
+      <div class="group h-full col-[1/2] row-[1/3] rounded-3xl overflow-hidden">
+        <!-- <img
+          class="h-full w-full object-cover transition duration-400 group-hover:scale-105"
+          src="./src/images/joel-filipe-RFDP7_80v5A-unsplash.jpg"
+        /> -->
+        <video
+          class="h-full w-full object-cover transition duration-400"
+          autoplay
+          muted
+          playsinline
+          loop
+        >
+          <source
+            src="./src/video/ssstik.io_1780081440008.mp4"
+            type="video/mp4"
+          />
+        </video>
+      </div>
+      <div
+        class="group col-[2/4] row-[1/2] h-full w-full overflow-hidden rounded-3xl"
+      >
+        <!-- <img
+          class="h-full w-full object-cover transition duration-400 group-hover:scale-105"
+          src="./src/images/apple-park.jpg"
+        /> -->
+        <video
+          class="h-full w-full object-cover transition duration-400"
+          autoplay
+          muted
+          playsinline
+          loop
+        >
+          <source src="./src/video/house-preview.MOV" />
+        </video>
+      </div>
+      <div
+        class="group col-[2/3] row-[2/3] h-full w-full overflow-hidden rounded-3xl"
+      >
+        <!-- <img
+          class="h-full w-full object-cover transition duration-400 group-hover:scale-105"
+          src="./src/images/alex-mNJ7c7-XCZQ-unsplash.jpg"
+        /> -->
+        <video
+          class="h-full w-full object-cover transition duration-400"
+          autoplay
+          muted
+          playsinline
+          loop
+        >
+          <source src="./src/video/hero-2.mp4" type="video/mp4" />
+        </video>
+      </div>
+      <div
+        class="group col-[3/4] row-[2/3] h-full w-full overflow-hidden rounded-3xl"
+      >
+        <!-- <img
+          class="h-full w-full object-cover transition duration-400 group-hover:scale-105"
+          src="./src/images/lance-anderson-QdAAasrZhdk-unsplash.jpg"
+        /> -->
+        <video
+          class="h-full w-full object-cover transition duration-400"
+          autoplay
+          muted
+          playsinline
+          loop
+        >
+          <source
+            src="./src/video/ssstik.io_1780081626944.mp4"
+            type="video/mp4"
+          />
+        </video>
+      </div>
+    </section>
+    <div class="w-full h-max px-12 flex justify-start items-center my-14">
+      <h1 class="text-4xl tracking-tight text-gray-700 font-normal">
+        Powering millions of businesses worldwide.
+      </h1>
+    </div>
+    <section
+      id="service"
+      class="relative w-screen h-[25vh] min-h-[calc(630px*0.25)] flex flex-col justify-center items-start overflow-hidden"
+    >
+      <div
+        class="absolute z-10 h-full w-full bg-[linear-gradient(to_right,_white_2%,_transparent_30%,_transparent_70%,white_98%)]"
+      ></div>
+      <div
+        class="absolute left-0 top-0 scroll-animate w-max h-1/2 flex flex-row justify-start items-center"
+      >
+        <img class="h-12 w-auto pr-20" src="./src/svg-logo/Company=Adobe.svg" />
+        <img
+          class="h-12 w-auto pr-20"
+          src="./src/svg-logo/Company=Airbnb.svg"
+        />
+        <img
+          class="h-12 w-auto pr-20"
+          src="./src/svg-logo/Company=Docker.svg"
+        />
+        <img
+          class="h-12 w-auto pr-20"
+          src="./src/svg-logo/Company=Microsoft.svg"
+        />
+        <img
+          class="h-12 w-auto pr-20"
+          src="./src/svg-logo/Company=Lattice.svg"
+        />
+        <img
+          class="h-12 w-auto pr-20"
+          src="./src/svg-logo/Company=PayPal.svg"
+        />
+        <img
+          class="h-12 w-auto pr-20"
+          src="./src/svg-logo/Company=Spotify.svg"
+        />
+        <img
+          class="h-12 w-auto pr-20"
+          src="./src/svg-logo/Company=Webflow.svg"
+        />
+        <img
+          class="h-12 w-auto pr-20"
+          src="./src/svg-logo/Company=Shopify.svg"
+        />
+
+        <img class="h-12 w-auto pr-20" src="./src/svg-logo/Company=Adobe.svg" />
+        <img
+          class="h-12 w-auto pr-20"
+          src="./src/svg-logo/Company=Airbnb.svg"
+        />
+        <img
+          class="h-12 w-auto pr-20"
+          src="./src/svg-logo/Company=Docker.svg"
+        />
+        <img
+          class="h-12 w-auto pr-20"
+          src="./src/svg-logo/Company=Microsoft.svg"
+        />
+        <img
+          class="h-12 w-auto pr-20"
+          src="./src/svg-logo/Company=Lattice.svg"
+        />
+        <img
+          class="h-12 w-auto pr-20"
+          src="./src/svg-logo/Company=PayPal.svg"
+        />
+        <img
+          class="h-12 w-auto pr-20"
+          src="./src/svg-logo/Company=Spotify.svg"
+        />
+        <img
+          class="h-12 w-auto pr-20"
+          src="./src/svg-logo/Company=Webflow.svg"
+        />
+        <img
+          class="h-12 w-auto pr-20"
+          src="./src/svg-logo/Company=Shopify.svg"
+        />
+      </div>
+      <div
+        class="absolute right-0 bottom-0 scroll-animate1 w-max h-1/2 flex flex-row justify-start items-center"
+      >
+        <img class="h-12 w-auto pl-20" src="./src/svg-logo/Company=Zoom.svg" />
+        <img
+          class="h-12 w-auto pl-20"
+          src="./src/svg-logo/Company=Tinder.svg"
+        />
+        <img class="h-12 w-auto pl-20" src="./src/svg-logo/Company=Slack.svg" />
+        <img
+          class="h-12 w-auto pl-20"
+          src="./src/svg-logo/Company=Grammarly.svg"
+        />
+        <img
+          class="h-12 w-auto pl-20"
+          src="./src/svg-logo/Company=Notion.svg"
+        />
+        <img class="h-12 w-auto pl-20" src="./src/svg-logo/Company=Maze.svg" />
+        <img
+          class="h-12 w-auto pl-20"
+          src="./src/svg-logo/Company=GitHub.svg"
+        />
+        <img
+          class="h-12 w-auto pl-20"
+          src="./src/svg-logo/Company=Dropbox.svg"
+        />
+        <img
+          class="h-12 w-auto pl-20"
+          src="./src/svg-logo/Company=Google.svg"
+        />
+
+        <img class="h-12 w-auto pl-20" src="./src/svg-logo/Company=Zoom.svg" />
+        <img
+          class="h-12 w-auto pl-20"
+          src="./src/svg-logo/Company=Tinder.svg"
+        />
+        <img class="h-12 w-auto pl-20" src="./src/svg-logo/Company=Slack.svg" />
+        <img
+          class="h-12 w-auto pl-20"
+          src="./src/svg-logo/Company=Grammarly.svg"
+        />
+        <img
+          class="h-12 w-auto pl-20"
+          src="./src/svg-logo/Company=Notion.svg"
+        />
+        <img class="h-12 w-auto pl-20" src="./src/svg-logo/Company=Maze.svg" />
+        <img
+          class="h-12 w-auto pl-20"
+          src="./src/svg-logo/Company=GitHub.svg"
+        />
+        <img
+          class="h-12 w-auto pl-20"
+          src="./src/svg-logo/Company=Dropbox.svg"
+        />
+        <img
+          class="h-12 w-auto pl-20"
+          src="./src/svg-logo/Company=Google.svg"
+        />
+      </div>
+    </section>
+    <!-- service -->
+    <section
+      class="relative w-screen h-max bg-white flex flex-col justify-start items-center"
+    >
+      <div
+        class="w-full h-max flex flex-col justify-center items-start gap-2.5 px-14 pt-14"
+      >
+        <h1 class="text-6xl font-medium text-gray-700 tracking-tight">
+          Take a look our services
+        </h1>
+        <!-- <p class="text-xl text-gray-500 leading-[1.2] tracking-tight">
+          We made a thousend of house and building <br />
+          apartment in late 2025.
+        </p> -->
+        <p class="text-3xl text-gray-500 leading-[1.2] tracking-tight">
+          Let's make your next move with us, Morder and Luxury
+        </p>
+      </div>
+      <div
+        class="w-full h-max flex flex-row justify-between items-center gap-5 px-14 mt-16"
+      >
+        <div
+          class="w-[calc(100vw/4-60px/4-48px*2/4)] h-[200px] flex flex-col justify-center items-start gap-1 bg-emerald-500/20 px-3.5 rounded-3xl border border-emerald-500"
+        >
+          <div
+            class="w-10 h-10 flex justify-center items-center rounded-full bg-emerald-500"
+          >
+            <i class="bi bi-tools text-sm text-white"></i>
+          </div>
+          <h1 class="text-black text-lg font-medium tracking-tight">
+            Build Renovetion
+          </h1>
+          <p class="text-sm tracking-tight text-gray-800">
+            Transforming outdated space into modern, Functional and
+            Easthetically.
+          </p>
+          <a class="underline text-emerald-500 text-sm" href="#">Learn more</a>
+        </div>
+        <div
+          class="w-[calc(100vw/4-60px/4-48px*2/4)] h-[200px] flex flex-col justify-center items-start gap-1 bg-transparent px-3.5 rounded-3xl border border-gray-200"
+        >
+          <div
+            class="w-10 h-10 flex justify-center items-center rounded-full bg-emerald-500"
+          >
+            <i class="bi bi-tools text-sm text-white"></i>
+          </div>
+          <h1 class="text-black text-lg font-medium tracking-tight">
+            Interior finishing
+          </h1>
+          <p class="text-sm tracking-tight text-gray-400">
+            Delivering impeccable craftsmanship to enhance the beauty, comfort.
+          </p>
+          <a class="underline text-emerald-500 text-sm" href="#">Learn more</a>
+        </div>
+        <div
+          class="w-[calc(100vw/4-60px/4-48px*2/4)] h-[200px] flex flex-col justify-center items-start gap-1 bg-transparent px-3.5 rounded-3xl border border-gray-200"
+        >
+          <div
+            class="w-10 h-10 flex justify-center items-center rounded-full bg-emerald-500"
+          >
+            <i class="bi bi-tools text-sm text-white"></i>
+          </div>
+          <h1 class="text-black text-lg font-medium tracking-tight">
+            Roofing Solution
+          </h1>
+          <p class="text-sm tracking-tight text-gray-400">
+            Privide durable and inovative roofing system design and protect.
+          </p>
+          <a class="underline text-emerald-500 text-sm" href="#">Learn more</a>
+        </div>
+        <div
+          class="w-[calc(100vw/4-60px/4-48px*2/4)] h-[200px] flex flex-col justify-center items-start gap-1 bg-transparent px-3.5 rounded-3xl border border-gray-200"
+        >
+          <div
+            class="w-10 h-10 flex justify-center items-center rounded-full bg-emerald-500"
+          >
+            <i class="bi bi-tools text-sm text-white"></i>
+          </div>
+          <h1 class="text-black text-lg font-medium tracking-tight">
+            Foundation Repair
+          </h1>
+          <p class="text-sm tracking-tight text-gray-400">
+            Ensuring structured stability and safty with expert solution for
+            foundation
+          </p>
+          <a class="underline text-emerald-500 text-sm" href="#">Learn more</a>
+        </div>
+      </div>
+    </section>
+    <section
+      class="relative w-screen h-max bg-white flex flex-col justify-start items-center pt-16"
+    >
+      <div class="w-full h-max flex justify-between items-end px-14">
+        <div
+          class="w-auto h-max flex flex-col justify-center items-start gap-2.5"
+        >
+          <h1
+            class="capitalize text-6xl font-medium text-gray-700 tracking-tight"
+          >
+            Our recent project
+          </h1>
+          <p class="text-3xl text-gray-500 leading-[1.2] tracking-tight">
+            We built a thousend of house and building <br />
+            apartment in late 2025.
+          </p>
+        </div>
+        <a
+          class="relative h-12 pr-14 pl-5 rounded-full bg-transparent flex justify-start items-center border border-gray-200"
+          href="#"
+          ><span class="text-gray-800">Explore more</span>
+          <div
+            class="absolute h-[calc(100%-4px)] w-[44px] bg-gray-800 rounded-full right-[2px] flex justify-center items-center"
+          >
+            <i class="bi bi-arrow-right text-white"></i>
+          </div>
+        </a>
+      </div>
+      <div class="w-full h-max grid grid-cols-3 gap-2.5 mt-14 px-2.5">
+        <div
+          class="group relative h-[450px] flex flex-col justify-center items-center overflow-hidden rounded-3xl"
+        >
+          <img
+            class="w-full h-full object-cover transition duration-300 group-hover:scale-105"
+            src="./src/project-image/project1.PNG"
+          />
+          <div
+            class="absolute z-10 w-full h-full bg-linear-to-b from-transparent from-60% to-black/60 opacity-0 transition duration-300 group-hover:opacity-100"
+          ></div>
+          <div
+            class="absolute z-20 bottom-0 opacity-0 w-full h-max py-5 flex flex-row justify-between items-center px-5 transition duration-300 group-hover:opacity-100"
+          >
+            <div class="flex flex-col justify-start items-start gap-1">
+              <p class="text-xs text-gray-200">Project name</p>
+              <h1 class="text-base text-white font-medium">
+                Spiralling Jungle
+              </h1>
+            </div>
+            <div class="flex flex-col justify-start items-end gap-1">
+              <p class="text-xs text-gray-200">Price start from</p>
+              <h1 class="text-base text-white font-medium">USD50k - USD100k</h1>
+            </div>
+          </div>
+          <div
+            class="absolute h-8 px-2.5 top-2 right-2 flex justify-center items-center gap-1 rounded-[20px] bg-white"
+          >
+            <i class="bi bi-geo-alt-fill text-black text-xs"></i>
+            <span class="text-xs z-50 text-black">LA, Lost Angeles, USA</span>
+          </div>
+        </div>
+        <div
+          class="group relative h-[450px] flex flex-col justify-center items-center overflow-hidden rounded-3xl"
+        >
+          <img
+            class="w-full h-full object-cover transition duration-300 group-hover:scale-105"
+            src="./src/project-image/project2.PNG"
+          />
+          <div
+            class="absolute z-10 w-full h-full bg-linear-to-b from-transparent from-60% to-black/60 opacity-0 transition duration-300 group-hover:opacity-100"
+          ></div>
+          <div
+            class="absolute z-20 opacity-0 w-full h-max py-5 flex flex-row justify-between items-center bottom-0 px-5 transition duration-300 group-hover:opacity-100"
+          >
+            <div class="flex flex-col justify-start items-start gap-1">
+              <p class="text-xs text-gray-200">Project name</p>
+              <h1 class="text-base text-white font-medium">
+                Spiralling Jungle
+              </h1>
+            </div>
+            <div class="flex flex-col justify-start items-end gap-1">
+              <p class="text-xs text-gray-200">Price start from</p>
+              <h1 class="text-base text-white font-medium">USD50k - USD100k</h1>
+            </div>
+          </div>
+          <div
+            class="absolute h-8 px-2.5 top-2 right-2 flex justify-center items-center gap-1 rounded-[20px] bg-white"
+          >
+            <i class="bi bi-geo-alt-fill text-black text-xs"></i>
+            <span class="text-xs z-50 text-black">Siem Reap, Cambodia</span>
+          </div>
+        </div>
+        <div
+          class="group relative h-[450px] flex flex-col justify-center items-center overflow-hidden rounded-3xl"
+        >
+          <img
+            class="w-full h-full object-cover transition duration-300 group-hover:scale-105"
+            src="./src/project-image/project3.PNG"
+          />
+          <div
+            class="absolute z-10 w-full h-full bg-linear-to-b from-transparent from-60% to-black/60 opacity-0 transition duration-300 group-hover:opacity-100"
+          ></div>
+          <div
+            class="absolute z-20 opacity-0 w-full h-max py-5 flex flex-row justify-between items-center bottom-0 px-5 transition duration-300 group-hover:opacity-100"
+          >
+            <div class="flex flex-col justify-start items-start gap-1">
+              <p class="text-xs text-gray-200">Project name</p>
+              <h1 class="text-base text-white font-medium">
+                Spiralling Jungle
+              </h1>
+            </div>
+            <div class="flex flex-col justify-start items-end gap-1">
+              <p class="text-xs text-gray-200">Price start from</p>
+              <h1 class="text-base text-white font-medium">USD50k - USD100k</h1>
+            </div>
+          </div>
+          <div
+            class="absolute h-8 px-2.5 top-2 right-2 flex justify-center items-center gap-1 rounded-[20px] bg-white"
+          >
+            <i class="bi bi-geo-alt-fill text-black text-xs"></i>
+            <span class="text-xs z-50 text-black">Ho Chi Minh, Veitnam</span>
+          </div>
+        </div>
+        <div
+          class="group relative h-[450px] flex flex-col justify-center items-center overflow-hidden rounded-3xl"
+        >
+          <img
+            class="w-full h-full object-cover transition duration-300 group-hover:scale-105"
+            src="./src/project-image/project4.PNG"
+          />
+          <div
+            class="absolute z-10 w-full h-full bg-linear-to-b from-transparent from-60% to-black/60 opacity-0 transition duration-300 group-hover:opacity-100"
+          ></div>
+          <div
+            class="absolute z-20 opacity-0 w-full h-max py-5 flex flex-row justify-between items-center bottom-0 px-5 transition duration-300 group-hover:opacity-100"
+          >
+            <div class="flex flex-col justify-start items-start gap-1">
+              <p class="text-xs text-gray-200">Project name</p>
+              <h1 class="text-base text-white font-medium">
+                Spiralling Jungle
+              </h1>
+            </div>
+            <div class="flex flex-col justify-start items-end gap-1">
+              <p class="text-xs text-gray-200">Price start from</p>
+              <h1 class="text-base text-white font-medium">USD50k - USD100k</h1>
+            </div>
+          </div>
+          <div
+            class="absolute h-8 px-2.5 top-2 right-2 flex justify-center items-center gap-1 rounded-[20px] bg-white"
+          >
+            <i class="bi bi-geo-alt-fill text-black text-xs"></i>
+            <span class="text-xs z-50 text-black"
+              >Shihanuke Vile, Cambodia</span
+            >
+          </div>
+        </div>
+        <div
+          class="group relative h-[450px] flex flex-col justify-center items-center overflow-hidden rounded-3xl"
+        >
+          <img
+            class="w-full h-full object-cover transition duration-300 group-hover:scale-105"
+            src="./src/project-image/project5.PNG"
+          />
+          <div
+            class="absolute z-10 w-full h-full bg-linear-to-b from-transparent from-60% to-black/60 opacity-0 transition duration-300 group-hover:opacity-100"
+          ></div>
+          <div
+            class="absolute z-20 opacity-0 w-full h-max py-5 flex flex-row justify-between items-center bottom-0 px-5 transition duration-300 group-hover:opacity-100"
+          >
+            <div class="flex flex-col justify-start items-start gap-1">
+              <p class="text-xs text-gray-200">Project name</p>
+              <h1 class="text-base text-white font-medium">
+                Spiralling Jungle
+              </h1>
+            </div>
+            <div class="flex flex-col justify-start items-end gap-1">
+              <p class="text-xs text-gray-200">Price start from</p>
+              <h1 class="text-base text-white font-medium">USD50k - USD100k</h1>
+            </div>
+          </div>
+          <div
+            class="absolute h-8 px-2.5 top-2 right-2 flex justify-center items-center gap-1 rounded-[20px] bg-white"
+          >
+            <i class="bi bi-geo-alt-fill text-black text-xs"></i>
+            <span class="text-xs z-50 text-black">New Delhi, India</span>
+          </div>
+        </div>
+        <div
+          class="group relative h-[450px] flex flex-col justify-center items-center overflow-hidden rounded-3xl"
+        >
+          <img
+            class="w-full h-full object-cover transition duration-300 group-hover:scale-105"
+            src="./src/project-image/project6.PNG"
+          />
+          <div
+            class="absolute z-10 w-full h-full bg-linear-to-b from-transparent from-60% to-black/60 opacity-0 transition duration-300 group-hover:opacity-100"
+          ></div>
+          <div
+            class="absolute z-20 opacity-0 w-full h-max py-5 flex flex-row justify-between items-center bottom-0 px-5 transition duration-300 group-hover:opacity-100"
+          >
+            <div class="flex flex-col justify-start items-start gap-1">
+              <p class="text-xs text-gray-200">Project name</p>
+              <h1 class="text-base text-white font-medium">
+                Spiralling Jungle
+              </h1>
+            </div>
+            <div class="flex flex-col justify-start items-end gap-1">
+              <p class="text-xs text-gray-200">Price start from</p>
+              <h1 class="text-base text-white font-medium">USD50k - USD100k</h1>
+            </div>
+          </div>
+          <div
+            class="absolute h-8 px-2.5 top-2 right-2 flex justify-center items-center gap-1 rounded-[20px] bg-white"
+          >
+            <i class="bi bi-geo-alt-fill text-black text-xs"></i>
+            <span class="text-xs z-50 text-black">Beijing, Chinese</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section
+      class="relative w-screen h-max bg-white flex flex-col justify-start items-center"
+    >
+      <div
+        class="w-[80%] h-max flex flex-col justify-center items-center gap-2.5 px-14 pt-14"
+      >
+        <h1
+          class="text-5xl font-medium text-center text-balance leading-[1.3] text-gray-800 tracking-tight"
+        >
+          See some clearly the
+          <span class="text-gray-400">interior design</span> inside the
+          <span class="text-gray-400">house</span>.
+        </h1>
+        <div
+          id="room-tabs"
+          class="relative w-max h-12 flex items-center justify-center bg-gray-200 rounded-[18px] mt-2"
+        >
+          <!-- Moving Indicator -->
+          <div
+            id="tab-indicator"
+            class="absolute left-[2px] h-11 bg-white rounded-2xl transition-all duration-300"
+          ></div>
+
+          <!-- Bed room -->
+          <div
+            data-img="./src/images/bedroom.jpd"
+            class="room-tab cursor-pointer relative z-10 h-11 w-auto flex justify-center items-center px-4 rounded-2xl"
+          >
+            <span class="text-sm text-black">Bed room</span>
+          </div>
+
+          <!-- Kitchen -->
+          <div
+            data-img="./src/images/joao-emanuel-z849oJ33SdI-unsplash.jpg.jpg"
+            class="room-tab cursor-pointer relative z-10 h-11 w-auto flex justify-center items-center px-4 bg-transparent rounded-2xl"
+          >
+            <span class="text-sm text-gray-600">Kitchen</span>
+          </div>
+
+          <!-- Guest room -->
+          <div
+            data-img="./src/images/guestroom.jpg"
+            class="room-tab cursor-pointer relative z-10 h-11 w-auto flex justify-center items-center px-4 bg-transparent rounded-2xl"
+          >
+            <span class="text-sm text-gray-600">Guest room</span>
+          </div>
+
+          <!-- Bathroom -->
+          <div
+            data-img="./src/images/bathroom.jpg"
+            class="room-tab cursor-pointer relative z-10 h-11 w-auto flex justify-center items-center px-4 bg-transparent rounded-2xl"
+          >
+            <span class="text-sm text-gray-600">Bathroom room</span>
+          </div>
+
+          <!-- Studio -->
+          <div
+            data-img="./src/images/studio.jpg"
+            class="room-tab cursor-pointer relative z-10 h-11 w-auto flex justify-center items-center px-4 bg-transparent rounded-2xl"
+          >
+            <span class="text-sm text-gray-600">Studio room</span>
+          </div>
+
+          <!-- Music -->
+          <div
+            data-img="./src/images/music.jpg"
+            class="room-tab cursor-pointer relative z-10 h-11 w-auto flex justify-center items-center px-4 bg-transparent rounded-2xl"
+          >
+            <span class="text-sm text-gray-600">Music room</span>
+          </div>
+
+          <!-- Gaming -->
+          <div
+            data-img="./src/images/gaming.jpg"
+            class="room-tab cursor-pointer relative z-10 h-11 w-auto flex justify-center items-center px-4 bg-transparent rounded-2xl"
+          >
+            <span class="text-sm text-gray-600">Gaming room</span>
+          </div>
+        </div>
+      </div>
+      <div
+        id="showcase-img"
+        class="w-[calc(100%-20px)] h-[500px] rounded-3xl overflow-hidden mt-5"
+      >
+        <img
+          class="w-full h-full object-cover"
+          src="./src/images/bedroom.jpg"
+        />
+      </div>
+    </section>
+    <section
+      class="relative w-screen h-max flex flex-col justify-start items-start mt-16 overflow-x-hidden"
+    >
+      <div
+        class="w-full flex flex-col justify-center items-start gap-2.5 px-14"
+      >
+        <h1
+          class="text-6xl text-gray-800 font-medium tracking-tight text-balance"
+        >
+          Explore our engineer
+        </h1>
+        <p class="w-[70%] text-3xl text-gray-400 tracking-tight text-balance">
+          Over 10 years of experience of civil engineering and architeture.
+        </p>
+      </div>
+      <div
+        class="relative animate-scroll w-max h-max flex flex-row justify-start items-center mt-16"
+      >
+        <div
+          class="relative w-[300px] h-[400px] overflow-hidden rounded-[30px] mr-5"
+        >
+          <img class="w-full h-full object-cover" src="./src/pf/pf1.jpg" />
+          <div
+            class="absolute z-10 inset-0 bg-linear-to-b from-transparent from-60% to-black/90 to-98%"
+          ></div>
+          <div
+            class="w-full absolute z-20 bottom-0 h-max flex flex-col justify-center items-start gap-0.5 px-2.5 pb-2.5 bg-transparent"
+          >
+            <h1 class="text-lg text-white font-medium">Leang Piseth</h1>
+            <p class="text-sm text-gray-200 text-balance leading-[1.2]">
+              He is an interior design in our campany over 10years.
+            </p>
+            <a
+              class="relative h-10 w-full rounded-full bg-white text-gray-900 flex justify-center items-center mt-2.5 overflow-hidden"
+              href="#"
+              ><span class="text-sm mr-12">View portfolio</span>
+              <div
+                class="w-16 h-9 absolute right-[2px] bg-emerald-500 rounded-full flex justify-center items-center"
+              >
+                <i class="bi bi-arrow-right text-white text-base"></i></div
+            ></a>
+          </div>
+          <div
+            class="absolute flex justify-center items-center top-2.5 right-2.5 h-10 w-10 bg-black/30 rounded-full backdrop-blur-lg"
+          >
+            <i class="bi bi-arrow-up-right text-white"></i>
+          </div>
+        </div>
+        <div
+          class="relative w-[300px] h-[400px] overflow-hidden rounded-[30px] mr-5"
+        >
+          <img class="w-full h-full object-cover" src="./src/pf/pf2.jpg" />
+          <div
+            class="absolute z-10 inset-0 bg-linear-to-b from-transparent from-60% to-black/90 to-98%"
+          ></div>
+          <div
+            class="w-full absolute z-20 bottom-0 h-max flex flex-col justify-center items-start gap-0.5 px-2.5 pb-2.5 bg-transparent"
+          >
+            <h1 class="text-lg text-white font-medium">Prek Bora</h1>
+            <p class="text-sm text-gray-200 text-balance leading-[1.2]">
+              He is an interior design in our campany over 10years.
+            </p>
+            <a
+              class="relative h-10 w-full rounded-full bg-white text-gray-900 flex justify-center items-center mt-2.5 overflow-hidden"
+              href="#"
+              ><span class="text-sm mr-12">View portfolio</span>
+              <div
+                class="w-16 h-9 absolute right-[2px] bg-emerald-500 rounded-full flex justify-center items-center"
+              >
+                <i class="bi bi-arrow-right text-white text-base"></i></div
+            ></a>
+          </div>
+          <div
+            class="absolute flex justify-center items-center top-2.5 right-2.5 h-10 w-10 bg-black/30 rounded-full backdrop-blur-lg"
+          >
+            <i class="bi bi-arrow-up-right text-white"></i>
+          </div>
+        </div>
+        <div
+          class="relative w-[300px] h-[400px] overflow-hidden rounded-[30px] mr-5"
+        >
+          <img class="w-full h-full object-cover" src="./src/pf/pf3.jpg" />
+          <div
+            class="absolute z-10 inset-0 bg-linear-to-b from-transparent from-60% to-black/90 to-98%"
+          ></div>
+          <div
+            class="w-full absolute z-20 bottom-0 h-max flex flex-col justify-center items-start gap-0.5 px-2.5 pb-2.5 bg-transparent"
+          >
+            <h1 class="text-lg text-white font-medium">Po Pagnaboth</h1>
+            <p class="text-sm text-gray-200 text-balance leading-[1.2]">
+              He is an interior design in our campany over 10years.
+            </p>
+            <a
+              class="relative h-10 w-full rounded-full bg-white text-gray-900 flex justify-center items-center mt-2.5 overflow-hidden"
+              href="#"
+              ><span class="text-sm mr-12">View portfolio</span>
+              <div
+                class="w-16 h-9 absolute right-[2px] bg-emerald-500 rounded-full flex justify-center items-center"
+              >
+                <i class="bi bi-arrow-right text-white text-base"></i></div
+            ></a>
+          </div>
+          <div
+            class="absolute flex justify-center items-center top-2.5 right-2.5 h-10 w-10 bg-black/30 rounded-full backdrop-blur-lg"
+          >
+            <i class="bi bi-arrow-up-right text-white"></i>
+          </div>
+        </div>
+        <div
+          class="relative w-[300px] h-[400px] overflow-hidden rounded-[30px] mr-5"
+        >
+          <img class="w-full h-full object-cover" src="./src/pf/pf4.jpg" />
+          <div
+            class="absolute z-10 inset-0 bg-linear-to-b from-transparent from-60% to-black/90 to-98%"
+          ></div>
+          <div
+            class="w-full absolute z-20 bottom-0 h-max flex flex-col justify-center items-start gap-0.5 px-2.5 pb-2.5 bg-transparent"
+          >
+            <h1 class="text-lg text-white font-medium">Thy Theara</h1>
+            <p class="text-sm text-gray-200 text-balance leading-[1.2]">
+              He is an interior design in our campany over 10years.
+            </p>
+            <a
+              class="relative h-10 w-full rounded-full bg-white text-gray-900 flex justify-center items-center mt-2.5 overflow-hidden"
+              href="#"
+              ><span class="text-sm mr-12">View portfolio</span>
+              <div
+                class="w-16 h-9 absolute right-[2px] bg-emerald-500 rounded-full flex justify-center items-center"
+              >
+                <i class="bi bi-arrow-right text-white text-base"></i></div
+            ></a>
+          </div>
+          <div
+            class="absolute flex justify-center items-center top-2.5 right-2.5 h-10 w-10 bg-black/30 rounded-full backdrop-blur-lg"
+          >
+            <i class="bi bi-arrow-up-right text-white"></i>
+          </div>
+        </div>
+        <div
+          class="relative w-[300px] h-[400px] overflow-hidden rounded-[30px] mr-5"
+        >
+          <img class="w-full h-full object-cover" src="./src/pf/pf5.jpg" />
+          <div
+            class="absolute z-10 inset-0 bg-linear-to-b from-transparent from-60% to-black/90 to-98%"
+          ></div>
+          <div
+            class="w-full absolute z-20 bottom-0 h-max flex flex-col justify-center items-start gap-0.5 px-2.5 pb-2.5 bg-transparent"
+          >
+            <h1 class="text-lg text-white font-medium">Leap Ammnat</h1>
+            <p class="text-sm text-gray-200 text-balance leading-[1.2]">
+              He is an interior design in our campany over 10years.
+            </p>
+            <a
+              class="relative h-10 w-full rounded-full bg-white text-gray-900 flex justify-center items-center mt-2.5 overflow-hidden"
+              href="#"
+              ><span class="text-sm mr-12">View portfolio</span>
+              <div
+                class="w-16 h-9 absolute right-[2px] bg-emerald-500 rounded-full flex justify-center items-center"
+              >
+                <i class="bi bi-arrow-right text-white text-base"></i></div
+            ></a>
+          </div>
+          <div
+            class="absolute flex justify-center items-center top-2.5 right-2.5 h-10 w-10 bg-black/30 rounded-full backdrop-blur-lg"
+          >
+            <i class="bi bi-arrow-up-right text-white"></i>
+          </div>
+        </div>
+        <div
+          class="relative w-[300px] h-[400px] overflow-hidden rounded-[30px] mr-5"
+        >
+          <img class="w-full h-full object-cover" src="./src/pf/pf6.jpg" />
+          <div
+            class="absolute z-10 inset-0 bg-linear-to-b from-transparent from-60% to-black/90 to-98%"
+          ></div>
+          <div
+            class="w-full absolute z-20 bottom-0 h-max flex flex-col justify-center items-start gap-0.5 px-2.5 pb-2.5 bg-transparent"
+          >
+            <h1 class="text-lg text-white font-medium">Mony Pisal</h1>
+            <p class="text-sm text-gray-200 text-balance leading-[1.2]">
+              He is an interior design in our campany over 10years.
+            </p>
+            <a
+              class="relative h-10 w-full rounded-full bg-white text-gray-900 flex justify-center items-center mt-2.5 overflow-hidden"
+              href="#"
+              ><span class="text-sm mr-12">View portfolio</span>
+              <div
+                class="w-16 h-9 absolute right-[2px] bg-emerald-500 rounded-full flex justify-center items-center"
+              >
+                <i class="bi bi-arrow-right text-white text-base"></i></div
+            ></a>
+          </div>
+          <div
+            class="absolute flex justify-center items-center top-2.5 right-2.5 h-10 w-10 bg-black/30 rounded-full backdrop-blur-lg"
+          >
+            <i class="bi bi-arrow-up-right text-white"></i>
+          </div>
+        </div>
+
+        <div
+          class="relative w-[300px] h-[400px] overflow-hidden rounded-[30px] mr-5"
+        >
+          <img class="w-full h-full object-cover" src="./src/pf/pf1.jpg" />
+          <div
+            class="absolute z-10 inset-0 bg-linear-to-b from-transparent from-60% to-black/90 to-98%"
+          ></div>
+          <div
+            class="w-full absolute z-20 bottom-0 h-max flex flex-col justify-center items-start gap-0.5 px-2.5 pb-2.5 bg-transparent"
+          >
+            <h1 class="text-lg text-white font-medium">Leang Piseth</h1>
+            <p class="text-sm text-gray-200 text-balance leading-[1.2]">
+              He is an interior design in our campany over 10years.
+            </p>
+            <a
+              class="relative h-10 w-full rounded-full bg-white text-gray-900 flex justify-center items-center mt-2.5 overflow-hidden"
+              href="#"
+              ><span class="text-sm mr-12">View portfolio</span>
+              <div
+                class="w-16 h-9 absolute right-[2px] bg-emerald-500 rounded-full flex justify-center items-center"
+              >
+                <i class="bi bi-arrow-right text-white text-base"></i></div
+            ></a>
+          </div>
+          <div
+            class="absolute flex justify-center items-center top-2.5 right-2.5 h-10 w-10 bg-black/30 rounded-full backdrop-blur-lg"
+          >
+            <i class="bi bi-arrow-up-right text-white"></i>
+          </div>
+        </div>
+        <div
+          class="relative w-[300px] h-[400px] overflow-hidden rounded-[30px] mr-5"
+        >
+          <img class="w-full h-full object-cover" src="./src/pf/pf2.jpg" />
+          <div
+            class="absolute z-10 inset-0 bg-linear-to-b from-transparent from-60% to-black/90 to-98%"
+          ></div>
+          <div
+            class="w-full absolute z-20 bottom-0 h-max flex flex-col justify-center items-start gap-0.5 px-2.5 pb-2.5 bg-transparent"
+          >
+            <h1 class="text-lg text-white font-medium">Prek Bora</h1>
+            <p class="text-sm text-gray-200 text-balance leading-[1.2]">
+              He is an interior design in our campany over 10years.
+            </p>
+            <a
+              class="relative h-10 w-full rounded-full bg-white text-gray-900 flex justify-center items-center mt-2.5 overflow-hidden"
+              href="#"
+              ><span class="text-sm mr-12">View portfolio</span>
+              <div
+                class="w-16 h-9 absolute right-[2px] bg-emerald-500 rounded-full flex justify-center items-center"
+              >
+                <i class="bi bi-arrow-right text-white text-base"></i></div
+            ></a>
+          </div>
+          <div
+            class="absolute flex justify-center items-center top-2.5 right-2.5 h-10 w-10 bg-black/30 rounded-full backdrop-blur-lg"
+          >
+            <i class="bi bi-arrow-up-right text-white"></i>
+          </div>
+        </div>
+        <div
+          class="relative w-[300px] h-[400px] overflow-hidden rounded-[30px] mr-5"
+        >
+          <img class="w-full h-full object-cover" src="./src/pf/pf3.jpg" />
+          <div
+            class="absolute z-10 inset-0 bg-linear-to-b from-transparent from-60% to-black/90 to-98%"
+          ></div>
+          <div
+            class="w-full absolute z-20 bottom-0 h-max flex flex-col justify-center items-start gap-0.5 px-2.5 pb-2.5 bg-transparent"
+          >
+            <h1 class="text-lg text-white font-medium">Po Pagnaboth</h1>
+            <p class="text-sm text-gray-200 text-balance leading-[1.2]">
+              He is an interior design in our campany over 10years.
+            </p>
+            <a
+              class="relative h-10 w-full rounded-full bg-white text-gray-900 flex justify-center items-center mt-2.5 overflow-hidden"
+              href="#"
+              ><span class="text-sm mr-12">View portfolio</span>
+              <div
+                class="w-16 h-9 absolute right-[2px] bg-emerald-500 rounded-full flex justify-center items-center"
+              >
+                <i class="bi bi-arrow-right text-white text-base"></i></div
+            ></a>
+          </div>
+          <div
+            class="absolute flex justify-center items-center top-2.5 right-2.5 h-10 w-10 bg-black/30 rounded-full backdrop-blur-lg"
+          >
+            <i class="bi bi-arrow-up-right text-white"></i>
+          </div>
+        </div>
+        <div
+          class="relative w-[300px] h-[400px] overflow-hidden rounded-[30px] mr-5"
+        >
+          <img class="w-full h-full object-cover" src="./src/pf/pf4.jpg" />
+          <div
+            class="absolute z-10 inset-0 bg-linear-to-b from-transparent from-60% to-black/90 to-98%"
+          ></div>
+          <div
+            class="w-full absolute z-20 bottom-0 h-max flex flex-col justify-center items-start gap-0.5 px-2.5 pb-2.5 bg-transparent"
+          >
+            <h1 class="text-lg text-white font-medium">Thy Theara</h1>
+            <p class="text-sm text-gray-200 text-balance leading-[1.2]">
+              He is an interior design in our campany over 10years.
+            </p>
+            <a
+              class="relative h-10 w-full rounded-full bg-white text-gray-900 flex justify-center items-center mt-2.5 overflow-hidden"
+              href="#"
+              ><span class="text-sm mr-12">View portfolio</span>
+              <div
+                class="w-16 h-9 absolute right-[2px] bg-emerald-500 rounded-full flex justify-center items-center"
+              >
+                <i class="bi bi-arrow-right text-white text-base"></i></div
+            ></a>
+          </div>
+          <div
+            class="absolute flex justify-center items-center top-2.5 right-2.5 h-10 w-10 bg-black/30 rounded-full backdrop-blur-lg"
+          >
+            <i class="bi bi-arrow-up-right text-white"></i>
+          </div>
+        </div>
+        <div
+          class="relative w-[300px] h-[400px] overflow-hidden rounded-[30px] mr-5"
+        >
+          <img class="w-full h-full object-cover" src="./src/pf/pf5.jpg" />
+          <div
+            class="absolute z-10 inset-0 bg-linear-to-b from-transparent from-60% to-black/90 to-98%"
+          ></div>
+          <div
+            class="w-full absolute z-20 bottom-0 h-max flex flex-col justify-center items-start gap-0.5 px-2.5 pb-2.5 bg-transparent"
+          >
+            <h1 class="text-lg text-white font-medium">Leap Ammnat</h1>
+            <p class="text-sm text-gray-200 text-balance leading-[1.2]">
+              He is an interior design in our campany over 10years.
+            </p>
+            <a
+              class="relative h-10 w-full rounded-full bg-white text-gray-900 flex justify-center items-center mt-2.5 overflow-hidden"
+              href="#"
+              ><span class="text-sm mr-12">View portfolio</span>
+              <div
+                class="w-16 h-9 absolute right-[2px] bg-emerald-500 rounded-full flex justify-center items-center"
+              >
+                <i class="bi bi-arrow-right text-white text-base"></i></div
+            ></a>
+          </div>
+          <div
+            class="absolute flex justify-center items-center top-2.5 right-2.5 h-10 w-10 bg-black/30 rounded-full backdrop-blur-lg"
+          >
+            <i class="bi bi-arrow-up-right text-white"></i>
+          </div>
+        </div>
+        <div
+          class="relative w-[300px] h-[400px] overflow-hidden rounded-[30px] mr-5"
+        >
+          <img class="w-full h-full object-cover" src="./src/pf/pf6.jpg" />
+          <div
+            class="absolute z-10 inset-0 bg-linear-to-b from-transparent from-60% to-black/90 to-98%"
+          ></div>
+          <div
+            class="w-full absolute z-20 bottom-0 h-max flex flex-col justify-center items-start gap-0.5 px-2.5 pb-2.5 bg-transparent"
+          >
+            <h1 class="text-lg text-white font-medium">Mony Pisal</h1>
+            <p class="text-sm text-gray-200 text-balance leading-[1.2]">
+              He is an interior design in our campany over 10years.
+            </p>
+            <a
+              class="relative h-10 w-full rounded-full bg-white text-gray-900 flex justify-center items-center mt-2.5 overflow-hidden"
+              href="#"
+              ><span class="text-sm mr-12">View portfolio</span>
+              <div
+                class="w-16 h-9 absolute right-[2px] bg-emerald-500 rounded-full flex justify-center items-center"
+              >
+                <i class="bi bi-arrow-right text-white text-base"></i></div
+            ></a>
+          </div>
+          <div
+            class="absolute flex justify-center items-center top-2.5 right-2.5 h-10 w-10 bg-black/30 rounded-full backdrop-blur-lg"
+          >
+            <i class="bi bi-arrow-up-right text-white"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- procces -->
+    <section class="w-screen h-screen min-h-[630px] bg-white"></section>
+    <!-- overlay -->
+    <section
+      id="preview"
+      class="fixed curosr-block z-[1000] bottom-0 w-screen h-screen min-h-[630px] hidden justify-center items-center opacity-0 overflow-hidden"
+    ></section>
+    <div
+      id="closeBTN"
+      class="cursor-pointer fixed z-[2000] top-6 right-10 h-12 w-12 hidden justify-center items-center rounded-full bg-gray-800 overflow-hidden"
+    >
+      <i class="bi bi-x text-white text-3xl"></i>
+    </div>
+    <div
+      id="mute"
+      class="cursor-pointer fixed z-[3000] top-[80px] right-10 h-12 w-12 hidden justify-center items-center rounded-full bg-gray-800 overflow-hidden"
+    >
+      <i class="bi bi-volume-up text-white text-2xl"></i>
+    </div>
+    <div
+      id="volumeUP"
+      class="cursor-pointer fixed z-[3000] top-[80px] right-10 h-12 w-12 hidden justify-center items-center rounded-full bg-gray-800 overflow-hidden"
+    >
+      <i class="bi bi-volume-mute text-white text-2xl"></i>
+    </div>
+    <script src="./src/js/script.js"></script>
+  </body>
+</html>

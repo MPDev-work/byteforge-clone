@@ -1,0 +1,384 @@
+<section
+      class="relative w-screen h-max bg-white flex flex-col justify-start items-center"
+    >
+      <div
+        class="w-full h-max flex flex-col justify-center items-start gap-2.5 px-14 pt-14"
+      >
+        <h1 class="text-6xl font-medium text-gray-700 tracking-tight">
+          Take a look our services
+        </h1>
+        <!-- <p class="text-xl text-gray-500 leading-[1.2] tracking-tight">
+          We made a thousend of house and building <br />
+          apartment in late 2025.
+        </p> -->
+        <p class="text-3xl text-gray-500 leading-[1.2] tracking-tight">
+          Let's make your next move with us, Morder and Luxury
+        </p>
+      </div>
+      <!-- renovation -->
+      <div
+        class="sticky top-0 w-full h-[630px] flex flex-row justify-between items-center bg-white px-14"
+      >
+        <div
+          class="w-1/2 h-[500px] flex flex-col justify-center items-start gap-2.5"
+        >
+          <h1 class="text-4xl font-medium tracking-tight text-gray-800">
+            Build Renovation
+          </h1>
+          <p class="text-base text-gray-500 text-balance w-[90%]">
+            This renovation project is designed to improve the functionality,
+            safety, appearance, and overall value of the existing building while
+            preserving its structural integrity. The scope of work includes
+            upgrades to architectural finishes, mechanical and electrical
+            systems, plumbing, interior spaces, and exterior improvements.
+          </p>
+          <div class="flex justify-start items-center gap-5">
+            <a
+              class="h-12 px-5 rounded-full flex justify-center items-center text-white text-sm bg-emerald-500"
+              href="#"
+              >Learn more</a
+            >
+            <a
+              class="h-12 px-5 rounded-full flex justify-center items-center text-emerald-500"
+              href="#"
+              >Detail about Renovation</a
+            >
+          </div>
+          <div
+            class="group relative w-[465px] h-14 flex flex-row justify-center items-center mt-5"
+          >
+            <input
+              class="w-full h-full border border-gray-400 rounded-full text-sm text-gray-800 pl-5 pr-[180px] transition duration-200 group-hover:border-1 group-hover:border-gray-900 focus:border-1 focus:border-gray-800 focus:outline-0"
+              type="email"
+              placeholder="yourmail@gmail.com"
+            />
+            <div
+              class="absolute h-12 w-[160px] flex justify-center items-center rounded-full bg-gray-800 text-white text-base right-1"
+            >
+              Get start for free
+            </div>
+          </div>
+        </div>
+        <div
+          class="relative w-1/2 h-[500px] flex flex-col justify-center items-center gap-2.5"
+        >
+          <img
+            class="absolute z-[2] h-[340px] w-auto left-[12px] -rotate-20 aspect-[3/4] object-cover rounded-3xl"
+            src="./src/services/renovation/renovation1.jpg"
+          />
+          <img
+            class="absolute z-[3] h-[340px] w-auto left-[62px] -rotate-[12deg] aspect-[3/4] object-cover rounded-3xl"
+            src="./src/services/renovation/renovation2.jpg"
+          />
+          <img
+            class="absolute z-[4] h-[340px] w-auto left-[112px] -rotate-[4deg] aspect-[3/4] object-cover rounded-3xl"
+            src="./src/services/renovation/renovation3.jpg"
+          />
+          <img
+            class="absolute z-[5] h-[340px] w-auto left-[162px] aspect-[3/4] object-cover rounded-3xl"
+            src="./src/services/renovation/renovation4.jpg"
+          />
+          <img
+            class="absolute z-[2] h-[340px] w-auto right-[12px] rotate-20 aspect-[3/4] object-cover rounded-3xl"
+            src="./src/services/renovation/renovation5.jpg"
+          />
+          <img
+            class="absolute z-[3] h-[340px] w-auto right-[62px] rotate-[12deg] aspect-[3/4] object-cover rounded-3xl"
+            src="./src/services/renovation/renovation6.jpg"
+          />
+          <img
+            class="absolute z-[4] h-[340px] w-auto right-[112px] rotate-[4deg] aspect-[3/4] object-cover rounded-3xl"
+            src="./src/services/renovation/renovation7.jpg"
+          />
+          <div
+            class="absolute z-[1] h-[360px] w-[360px] rounded-full bg-gray-400/80 blur-[60px]"
+          ></div>
+        </div>
+      </div>
+      <!-- interior -->
+      <div
+        class="bg-fixed sticky top-0 w-full h-[630px] flex flex-row-reverse justify-between items-center mt-12 bg-white px-14"
+      >
+        <div
+          class="w-1/2 h-[500px] pl-20 flex flex-col justify-center items-start gap-2.5"
+        >
+          <h1 class="text-4xl font-medium tracking-tight text-gray-800">
+            Interior Finishing
+          </h1>
+          <p class="text-base text-gray-500 text-balance w-[90%]">
+            Interior Finishing transforms interior spaces into functional,
+            modern, and visually appealing environments through high-quality
+            workmanship and detail-oriented execution. Our services include
+            painting, flooring, ceiling works, lighting installation, carpentry,
+            tiling, and decorative finishes designed to enhance comfort, style,
+            and long-term durability for residential and commercial spaces.
+          </p>
+          <div class="flex justify-start items-center gap-5">
+            <a
+              class="h-12 px-5 rounded-full flex justify-center items-center text-white text-sm bg-emerald-500"
+              href="#"
+              >Learn more</a
+            >
+            <a
+              class="h-12 px-5 rounded-full flex justify-center items-center text-emerald-500"
+              href="#"
+              >Detail about Interior design</a
+            >
+          </div>
+          <div
+            class="group relative w-[465px] h-14 flex flex-row justify-center items-center mt-5"
+          >
+            <input
+              class="w-full h-full border border-gray-400 rounded-full text-sm text-gray-800 pl-5 pr-[180px] transition duration-200 group-hover:border-1 group-hover:border-gray-900 focus:border-1 focus:border-gray-800 focus:outline-0"
+              type="email"
+              placeholder="yourmail@gmail.com"
+            />
+            <div
+              class="absolute h-12 w-[160px] flex justify-center items-center rounded-full bg-gray-800 text-white text-base right-1"
+            >
+              Get start for free
+            </div>
+          </div>
+        </div>
+        <div
+          class="relative w-1/2 h-[500px] flex flex-col justify-center items-center gap-2.5"
+        >
+          <img
+            class="absolute z-[2] h-[340px] w-auto left-[12px] -rotate-20 aspect-[3/4] object-cover rounded-3xl"
+            src="./src/services/interior/interior1.jpg"
+          />
+          <img
+            class="absolute z-[3] h-[340px] w-auto left-[62px] -rotate-[12deg] aspect-[3/4] object-cover rounded-3xl"
+            src="./src/services/interior/interior2.jpg"
+          />
+          <img
+            class="absolute z-[4] h-[340px] w-auto left-[112px] -rotate-[4deg] aspect-[3/4] object-cover rounded-3xl"
+            src="./src/services/interior/interior3.jpg"
+          />
+          <img
+            class="absolute z-[5] h-[340px] w-auto left-[162px] aspect-[3/4] object-cover rounded-3xl"
+            src="./src/services/interior/interior4.jpg"
+          />
+          <img
+            class="absolute z-[2] h-[340px] w-auto right-[12px] rotate-20 aspect-[3/4] object-cover rounded-3xl"
+            src="./src/services/interior/interior5.jpg"
+          />
+          <img
+            class="absolute z-[3] h-[340px] w-auto right-[62px] rotate-[12deg] aspect-[3/4] object-cover rounded-3xl"
+            src="./src/services/interior/interior6.jpg"
+          />
+          <img
+            class="absolute z-[4] h-[340px] w-auto right-[112px] rotate-[4deg] aspect-[3/4] object-cover rounded-3xl"
+            src="./src/services/interior/interior7.jpg"
+          />
+          <div
+            class="absolute z-[1] h-[360px] w-[360px] rounded-full bg-gray-400/80 blur-[60px]"
+          ></div>
+        </div>
+      </div>
+      <!-- Roofing solution -->
+      <div
+        class="sticky top-0 w-full h-[630px] flex flex-row justify-between items-center mt-12 bg-white px-14"
+      >
+        <div
+          class="w-1/2 h-[500px] flex flex-col justify-center items-start gap-2.5"
+        >
+          <h1 class="text-4xl font-medium tracking-tight text-gray-800">
+            Roofing Solution
+          </h1>
+          <p class="text-base text-gray-500 text-balance w-[90%]">
+            Roofing Solutions provide durable, weather-resistant, and
+            high-quality roofing systems designed to protect and enhance
+            residential, commercial, and industrial buildings. Our services
+            include roof installation, repair, waterproofing, insulation, and
+            maintenance using reliable materials and professional workmanship to
+            ensure long-lasting performance, safety, and modern appearance.
+          </p>
+          <div class="flex justify-start items-center gap-5">
+            <a
+              class="h-12 px-5 rounded-full flex justify-center items-center text-white text-sm bg-emerald-500"
+              href="#"
+              >Learn more</a
+            >
+            <a
+              class="h-12 px-5 rounded-full flex justify-center items-center text-emerald-500"
+              href="#"
+              >Detail about Roofing Solution</a
+            >
+          </div>
+          <div
+            class="group relative w-[465px] h-14 flex flex-row justify-center items-center mt-5"
+          >
+            <input
+              class="w-full h-full border border-gray-400 rounded-full text-sm text-gray-800 pl-5 pr-[180px] transition duration-200 group-hover:border-1 group-hover:border-gray-900 focus:border-1 focus:border-gray-800 focus:outline-0"
+              type="email"
+              placeholder="yourmail@gmail.com"
+            />
+            <div
+              class="absolute h-12 w-[160px] flex justify-center items-center rounded-full bg-gray-800 text-white text-base right-1"
+            >
+              Get start for free
+            </div>
+          </div>
+        </div>
+        <div
+          class="relative w-1/2 h-[500px] flex flex-col justify-center items-center gap-2.5"
+        >
+          <img
+            class="absolute z-[2] h-[340px] w-auto left-[12px] -rotate-20 aspect-[3/4] object-cover rounded-3xl"
+            src="./src/services/roofing/roofing1.jpg"
+          />
+          <img
+            class="absolute z-[3] h-[340px] w-auto left-[62px] -rotate-[12deg] aspect-[3/4] object-cover rounded-3xl"
+            src="./src/services/roofing/roofing2.jpg"
+          />
+          <img
+            class="absolute z-[4] h-[340px] w-auto left-[112px] -rotate-[4deg] aspect-[3/4] object-cover rounded-3xl"
+            src="./src/services/roofing/roofing3.jpg"
+          />
+          <img
+            class="absolute z-[5] h-[340px] w-auto left-[162px] aspect-[3/4] object-cover rounded-3xl"
+            src="./src/services/roofing/roofing4.jpg"
+          />
+          <img
+            class="absolute z-[2] h-[340px] w-auto right-[12px] rotate-20 aspect-[3/4] object-cover rounded-3xl"
+            src="./src/services/roofing/roofing5.jpg"
+          />
+          <img
+            class="absolute z-[3] h-[340px] w-auto right-[62px] rotate-[12deg] aspect-[3/4] object-cover rounded-3xl"
+            src="./src/services/roofing/roofing6.jpg"
+          />
+          <img
+            class="absolute z-[4] h-[340px] w-auto right-[112px] rotate-[4deg] aspect-[3/4] object-cover rounded-3xl"
+            src="./src/services/roofing/roofing7.jpg"
+          />
+          <div
+            class="absolute z-[1] h-[360px] w-[360px] rounded-full bg-gray-400/80 blur-[60px]"
+          ></div>
+        </div>
+      </div>
+      <!-- Foundation repair -->
+      <div
+        class="sticky top-0 w-full h-[630px] flex flex-row-reverse justify-between items-center mt-12 bg-white px-14"
+      >
+        <div
+          class="w-1/2 h-[500px] pl-20 flex flex-col justify-center items-start gap-2.5"
+        >
+          <h1 class="text-4xl font-medium tracking-tight text-gray-800">
+            Foundation Repair
+          </h1>
+          <p class="text-base text-gray-500 text-balance w-[90%]">
+            Foundation Repair services focus on restoring the strength,
+            stability, and safety of damaged or weakened structures. We provide
+            professional assessment, crack repair, reinforcement, leveling, and
+            structural stabilization solutions to prevent further deterioration
+            and ensure long-term durability for residential and commercial
+            buildings.
+          </p>
+          <div class="flex justify-start items-center gap-5">
+            <a
+              class="h-12 px-5 rounded-full flex justify-center items-center text-white text-sm bg-emerald-500"
+              href="#"
+              >Learn more</a
+            >
+            <a
+              class="h-12 px-5 rounded-full flex justify-center items-center text-emerald-500"
+              href="#"
+              >Detail about Foundation Rapair</a
+            >
+          </div>
+          <div
+            class="group relative w-[465px] h-14 flex flex-row justify-center items-center mt-5"
+          >
+            <input
+              class="w-full h-full border border-gray-400 rounded-full text-sm text-gray-800 pl-5 pr-[180px] transition duration-200 group-hover:border-1 group-hover:border-gray-900 focus:border-1 focus:border-gray-800 focus:outline-0"
+              type="email"
+              placeholder="yourmail@gmail.com"
+            />
+            <div
+              class="absolute h-12 w-[160px] flex justify-center items-center rounded-full bg-gray-800 text-white text-base right-1"
+            >
+              Get start for free
+            </div>
+          </div>
+        </div>
+        <div
+          class="relative w-1/2 h-[500px] flex flex-col justify-center items-center gap-2.5"
+        >
+          <img
+            class="absolute z-[2] h-[340px] w-auto left-[12px] -rotate-20 aspect-[3/4] object-cover rounded-3xl"
+            src="./src/services/repair/repair1.jpg"
+          />
+          <img
+            class="absolute z-[3] h-[340px] w-auto left-[62px] -rotate-[12deg] aspect-[3/4] object-cover rounded-3xl"
+            src="./src/services/repair/repair2.jpg"
+          />
+          <img
+            class="absolute z-[4] h-[340px] w-auto left-[112px] -rotate-[4deg] aspect-[3/4] object-cover rounded-3xl"
+            src="./src/services/repair/repair3.jpg"
+          />
+          <img
+            class="absolute z-[5] h-[340px] w-auto left-[162px] aspect-[3/4] object-cover rounded-3xl"
+            src="./src/services/repair/repair4.jpg"
+          />
+          <img
+            class="absolute z-[2] h-[340px] w-auto right-[12px] rotate-20 aspect-[3/4] object-cover rounded-3xl"
+            src="./src/services/repair/repair5.jpg"
+          />
+          <img
+            class="absolute z-[3] h-[340px] w-auto right-[62px] rotate-[12deg] aspect-[3/4] object-cover rounded-3xl"
+            src="./src/services/repair/repair6.jpg"
+          />
+          <img
+            class="absolute z-[4] h-[340px] w-auto right-[112px] rotate-[4deg] aspect-[3/4] object-cover rounded-3xl"
+            src="./src/services/repair/repair7.jpg"
+          />
+          <div
+            class="absolute z-[1] h-[360px] w-[360px] rounded-full bg-gray-400/80 blur-[60px]"
+          ></div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+    <div
+          class="w-max h-12 flex items-center bg-gray-100 rounded-[18px] px-[2px] mt-2"
+        >
+          <div
+            class="cursor-pointer h-11 w-auto flex justify-center items-center px-4 bg-white rounded-2xl"
+          >
+            <span class="text-sm text-black">Bed room</span>
+          </div>
+          <div
+            class="cursor-pointer h-11 w-auto flex justify-center items-center px-4 bg-transparent rounded-2xl"
+          >
+            <span class="text-sm text-gray-600">Kitchen</span>
+          </div>
+          <div
+            class="cursor-pointer h-11 w-auto flex justify-center items-center px-4 bg-transparent rounded-2xl"
+          >
+            <span class="text-sm text-gray-600">Guest room</span>
+          </div>
+          <div
+            class="cursor-pointer h-11 w-auto flex justify-center items-center px-4 bg-transparent rounded-2xl"
+          >
+            <span class="text-sm text-gray-600">Bathroom room</span>
+          </div>
+          <div
+            class="cursor-pointer h-11 w-auto flex justify-center items-center px-4 bg-transparent rounded-2xl"
+          >
+            <span class="text-sm text-gray-600">Studio room</span>
+          </div>
+          <div
+            class="cursor-pointer h-11 w-auto flex justify-center items-center px-4 bg-transparent rounded-2xl"
+          >
+            <span class="text-sm text-gray-600">Music room</span>
+          </div>
+          <div
+            class="cursor-pointer h-11 w-auto flex justify-center items-center px-4 bg-transparent rounded-2xl"
+          >
+            <span class="text-sm text-gray-600">Gaming room</span>
+          </div>
+        </div>

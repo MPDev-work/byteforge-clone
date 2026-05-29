@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <rect width="512" height="512" fill="white"/>
+
+  <!-- Outer shape -->
+  <path d="
+    M120 300
+    L120 210
+    L210 120
+    L390 120
+    L390 190
+    L240 190
+    C205 190 180 215 180 250
+    L180 390
+    L120 390
+    Z
+  " fill="black"/>
+
+  <!-- Top horizontal extension -->
+  <rect x="240" y="190" width="150" height="70" fill="black"/>
+
+  <!-- Inner curved shape -->
+  <path d="
+    M240 190
+    L320 190
+    L320 250
+    L280 250
+    C255 250 240 265 240 290
+    L240 390
+    L180 390
+    L180 250
+    C180 215 205 190 240 190
+    Z
+  " fill="black"/>
+
+  <!-- Small inner block -->
+  <rect x="240" y="250" width="80" height="70" fill="black"/>
+</svg>
