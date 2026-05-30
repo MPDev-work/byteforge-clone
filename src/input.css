@@ -6,6 +6,12 @@
   scroll-behavior: smooth;
 }
 
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 :root {
   --primary-color: oklch(69.6% 0.17 162.48);
   --primary-tint: oklch(95% 0.052 163.051);
