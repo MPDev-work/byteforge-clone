@@ -7,18 +7,18 @@
 }
 
 :root {
-  --primary-color: ;
-  --primary-tint: ;
-  --primary-shade: ;
-  --second-color: ;
-  --second-tint: ;
-  --sencond-shade: ;
+  --primary-color: oklch(69.6% 0.17 162.48);
+  --primary-tint: oklch(95% 0.052 163.051);
+  --primary-shade: oklch(43.2% 0.095 166.913);
+  --second-color: oklch(68.5% 0.169 237.323);
+  --second-tint: oklch(95.1% 0.026 236.824);
+  --second-shade: oklch(44.3% 0.11 240.79);
   --third-color: ;
   --third-tint: ;
   --third-shade: ;
-  --gray: ;
-  --gray-tint: ;
-  --gray-shade: ;
+  --gray: oklch(44.6% 0.03 256.802);
+  --gray-tint: oklch(92.9% 0.013 255.508);
+  --gray-shade: oklch(27.8% 0.033 256.848);
 }
 .scroll-animate {
   animation: scroll 40s linear infinite;
