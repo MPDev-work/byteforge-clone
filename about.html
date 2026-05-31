@@ -37,7 +37,7 @@
       type="module"
     ></script>
   </head>
-  <body>
+  <body class="overflow-x-hidden">
     <nav
       class="fixed z-[999] inset-x-12 top-5 h-14 rounded-full bg-white px-2.5 flex justify-between items-center transition duration-200"
     >
@@ -61,7 +61,14 @@
       </div>
     </nav>
     <section
-      class="w-screen h-screen flex justify-center items-center bg-pink-200"
+      class="w-screen h-screen flex justify-center items-center bg-white"
     ></section>
+    <section class="w-screen h-screen bg-transparent"></section>
+    <h1
+      class="absolute left-1/2 -translate-x-1/2 top-[calc(50%+50px)] -translate-y-1/2 animate Inter uppercase font-black text-[250px] text-gray-300 text-center leading-[.9]"
+    >
+      About <br />
+      Us
+    </h1>
   </body>
 </html>
