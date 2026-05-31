@@ -24,11 +24,19 @@
       href="https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,wght@6..144,1..1000&display=swap"
       rel="stylesheet"
     />
+    <!--  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rammetto+One&display=swap"
+      rel="stylesheet"
+    />
     <!-- link bootstrap icon -->
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
     />
+    <link rel="icon" type="icon/png" href="./src/public/byteforg-lg.PNG" />
     <link rel="stylesheet" href="./src/output.css" />
     <title>ByteForge - About</title>
     <!-- bg animation -->
@@ -39,10 +47,10 @@
   </head>
   <body class="overflow-x-hidden">
     <nav
-      class="fixed z-[999] inset-x-12 top-5 h-14 rounded-full bg-white px-2.5 flex justify-between items-center transition duration-200"
+      class="absolute z-[999] inset-x-12 top-5 h-14 rounded-full bg-white px-2.5 flex justify-between items-center transition duration-200"
     >
       <h1
-        class="absolute left-1/2 -translate-x-1/2 uppercase text-3xl tracking-tight font-medium text-black"
+        class="absolute left-1/2 -translate-x-1/2 uppercase text-3xl tracking-tight font-semibold text-black"
       >
         byteforge
       </h1>
@@ -61,14 +69,71 @@
       </div>
     </nav>
     <section
-      class="w-screen h-screen flex justify-center items-center bg-white"
-    ></section>
-    <section class="w-screen h-screen bg-transparent"></section>
-    <h1
-      class="absolute left-1/2 -translate-x-1/2 top-[calc(50%+50px)] -translate-y-1/2 animate Inter uppercase font-black text-[250px] text-gray-300 text-center leading-[.9]"
+      class="relative w-screen h-screen flex flex-col justify-center items-center bg-white overflow-hidden px-[22px]"
     >
-      About <br />
-      Us
-    </h1>
+      <h1
+        class="animate-right w-full text-right Inter uppercase text-[100px] tracking-tighter font-black text-gray-800 leading-[.8]"
+      >
+        mony pisal
+      </h1>
+      <h1
+        class="animate Inter uppercase font-black text-[240px] text-center leading-[.9] text-nowrap whitespace-nowrap bg-linear-to-b from-gray-400 to-gray-50 to-[98%] bg-clip-text text-transparent"
+      >
+        About Us
+      </h1>
+      <h1
+        class="animate-left w-full text-left Inter uppercase text-[100px] tracking-tighter font-black text-gray-800 leading-[.8]"
+      >
+        byteforge 2.0
+        <!-- <span class="text-[46px] tracking-tight text-red-800">practicum</span> -->
+      </h1>
+      <div class="animate-down absolute bottom-10">
+        <i class="bi bi-chevron-double-down text-4xl text-gray-800"></i>
+      </div>
+    </section>
+    <section
+      class="w-screen h-max flex flex-col justify-start items-center px-[22px] pb-20"
+    >
+      <h1
+        class="w-full text-center Inter uppercase text-[150px] tracking-tighter font-black leading-[.9] text-balance my-[200px]"
+      >
+        <span
+          class="bg-linear-to-b from-gray-400 to-gray-50 to-[98%] bg-clip-text text-transparent"
+          >who developed</span
+        >
+        <span
+          class="bg-linear-to-b from-gray-400 to-gray-50 to-[98%] bg-clip-text text-transparent"
+          >this webpage?</span
+        >
+      </h1>
+      <div class="w-full h-max flex flex-col justify-center items-center mt-20">
+        <div class="w-full h-max flex flex-col justify-center items-center">
+          <h1
+            class="Inter uppercase text-amber-600 text-9xl font-bold tracking-tighter"
+          >
+            It's me
+          </h1>
+          <h1
+            class="Inter uppercase text-[150px] tracking-tighter font-black text-gray-900 leading-[.9] text-nowrap whitespace-nowrap p-2.5"
+          >
+            mony pisal
+          </h1>
+          <h1
+            class="Inter uppercase text-gray-800 text-7xl font-bold tracking-tighter"
+          >
+            kon khmer khet pursat
+          </h1>
+        </div>
+        <div class="w-full h-[630px] flex justify-between items-center mt-12">
+          <img
+            class="w-1/2 h-full object-cover rounded-3xl grayscale-50"
+            src="./src/pf/jvke.PNG"
+          />
+          <div
+            class="w-1/2 h-full grid grid-flow-row grid-cols-2 justify-center items-center"
+          ></div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>

@@ -12,9 +12,10 @@ body {
   overflow-x: hidden;
 }
 
-.Inter {
-  font-family: 'Inter', sans-serif;
+.rammetto {
+  font-family: 'Rammetto One', sans-serif;
 }
+
 :root {
   --primary-color: oklch(69.6% 0.17 162.48);
   --primary-tint: oklch(95% 0.052 163.051);
@@ -83,35 +84,50 @@ body {
 .animate {
   animation: zoom 3s cubic-bezier(0.22, 1.03, 0.52, 0.99) alternate;
 }
+.animate-left {
+  animation: zoom-left 3s cubic-bezier(0.22, 1.03, 0.52, 0.99) alternate;
+}
+.animate-right {
+  animation: zoom-right 3s cubic-bezier(0.22, 1.03, 0.52, 0.99) alternate;
+}
 
-@keyframes zoom {
+@keyframes zoom-left {
   0% {
-    transform: scale(0) translateX(300px) translateY(200px);
-    letter-spacing: -200px;
-    opacity: 0;
+    letter-spacing: -100px;
     filter: blur(50px);
+    opacity: 0;
   }
   25% {
-    transform: scale(1) translateX(0) translateZ(0);
-    opacity: 1;
-    letter-spacing: 0;
-    filter: blur(0);
-  }
-  /* 70% {
     transform: scale(1);
     opacity: 1;
-  }
-  72% {
-    transform: scale(0.8);
-  } */
-  75% {
-    transform: scale(1) translateX(0) translateY(0);
-    opacity: 1;
+    letter-spacing: -0.05em;
     filter: blur(0);
   }
   100% {
-    transform: scale(3) translateX(300px) translateY(500px);
+    transform: scale(1);
+    opacity: 1;
+    letter-spacing: -0.05em;
+    filter: blur(0);
+  }
+}
+
+@keyframes zoom-right {
+  0% {
+    letter-spacing: -100px;
+    filter: blur(50px);
     opacity: 0;
+  }
+  25% {
+    transform: scale(1);
+    opacity: 1;
+    letter-spacing: -0.05em;
+    filter: blur(0);
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+    letter-spacing: -0.05em;
+    filter: blur(0);
   }
 }
 @keyframes zoom {
@@ -144,5 +160,19 @@ body {
     opacity: 1;
     letter-spacing: 0;
     filter: blur(0);
+  }
+}
+.animate-down {
+  animation: animate-down 3s ease-in-out infinite;
+}
+@keyframes animate-down {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(25px);
+  }
+  100% {
+    transform: translateY(0);
   }
 }
