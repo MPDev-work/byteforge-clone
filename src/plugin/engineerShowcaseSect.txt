@@ -1,0 +1,454 @@
+    <section
+      class="relative w-screen h-max flex flex-col justify-start items-start mt-16 overflow-x-hidden"
+    >
+      <div
+        class="w-full flex flex-col justify-center items-start gap-2.5 px-2.5 lg:px-14"
+      >
+        <h1
+          class="text-3xl lg:text-6xl text-gray-800 font-medium tracking-tight text-balance"
+        >
+          Explore our engineer
+        </h1>
+        <p
+          class="w-full lg:w-[70%] text-xl lg:text-3xl text-gray-400 tracking-tight text-balance"
+        >
+          Over 10 years of experience of civil engineering and architeture.
+        </p>
+      </div>
+      <div
+        class="relative animate-scroll w-max h-max flex flex-row justify-start items-center mt-16"
+      >
+        <!-- 1 -->
+        <div
+          class="relative w-[200px] lg:w-[300px] h-[300px] lg:h-[400px] overflow-hidden rounded-[30px] mr-2.5 lg:mr-5"
+        >
+          <img class="w-full h-full object-cover" src="./src/pf/pf1.jpg" />
+          <div
+            class="absolute z-10 inset-0 bg-linear-to-b from-transparent from-60% to-black/90 to-98%"
+          ></div>
+
+          <div
+            class="w-full absolute z-20 bottom-0 h-max flex flex-col justify-center items-start gap-0.5 px-2.5 pb-2.5 bg-transparent"
+          >
+            <h1 class="text-base lg:text-lg text-white font-medium">
+              Leang Piseth
+            </h1>
+            <p
+              class="text-xs lg:text-sm text-gray-200 text-balance leading-[1.2]"
+            >
+              He is an interior design in our campany over 10years.
+            </p>
+            <a
+              class="relative h-8 lg:h-10 w-full rounded-full bg-white text-gray-900 flex justify-center items-center mt-2.5 overflow-hidden"
+              href="#"
+              ><span class="text-xs lg:text-sm mr-12">View portfolio</span>
+              <div
+                class="w-14 lg:w-16 h-7 lg:h-9 absolute right-[2px] bg-emerald-500 rounded-full flex justify-center items-center"
+              >
+                <i class="bi bi-arrow-right text-white text-base"></i></div
+            ></a>
+          </div>
+          <div
+            class="absolute flex justify-center items-center top-2.5 right-2.5 h-10 w-10 bg-black/30 rounded-full backdrop-blur-lg"
+          >
+            <i class="bi bi-arrow-up-right text-white"></i>
+          </div>
+        </div>
+        <!-- 1 -->
+        <div
+          class="relative w-[200px] lg:w-[300px] h-[300px] lg:h-[400px] overflow-hidden rounded-[30px] mr-2.5 lg:mr-5"
+        >
+          <img class="w-full h-full object-cover" src="./src/pf/pf1.jpg" />
+          <div
+            class="absolute z-10 inset-0 bg-linear-to-b from-transparent from-60% to-black/90 to-98%"
+          ></div>
+
+          <div
+            class="w-full absolute z-20 bottom-0 h-max flex flex-col justify-center items-start gap-0.5 px-2.5 pb-2.5 bg-transparent"
+          >
+            <h1 class="text-base lg:text-lg text-white font-medium">
+              Leang Piseth
+            </h1>
+            <p
+              class="text-xs lg:text-sm text-gray-200 text-balance leading-[1.2]"
+            >
+              He is an interior design in our campany over 10years.
+            </p>
+            <a
+              class="relative h-8 lg:h-10 w-full rounded-full bg-white text-gray-900 flex justify-center items-center mt-2.5 overflow-hidden"
+              href="#"
+              ><span class="text-xs lg:text-sm mr-12">View portfolio</span>
+              <div
+                class="w-14 lg:w-16 h-7 lg:h-9 absolute right-[2px] bg-emerald-500 rounded-full flex justify-center items-center"
+              >
+                <i class="bi bi-arrow-right text-white text-base"></i></div
+            ></a>
+          </div>
+          <div
+            class="absolute flex justify-center items-center top-2.5 right-2.5 h-10 w-10 bg-black/30 rounded-full backdrop-blur-lg"
+          >
+            <i class="bi bi-arrow-up-right text-white"></i>
+          </div>
+        </div>
+        <!-- 1 -->
+        <div
+          class="relative w-[200px] lg:w-[300px] h-[300px] lg:h-[400px] overflow-hidden rounded-[30px] mr-2.5 lg:mr-5"
+        >
+          <img class="w-full h-full object-cover" src="./src/pf/pf1.jpg" />
+          <div
+            class="absolute z-10 inset-0 bg-linear-to-b from-transparent from-60% to-black/90 to-98%"
+          ></div>
+
+          <div
+            class="w-full absolute z-20 bottom-0 h-max flex flex-col justify-center items-start gap-0.5 px-2.5 pb-2.5 bg-transparent"
+          >
+            <h1 class="text-base lg:text-lg text-white font-medium">
+              Leang Piseth
+            </h1>
+            <p
+              class="text-xs lg:text-sm text-gray-200 text-balance leading-[1.2]"
+            >
+              He is an interior design in our campany over 10years.
+            </p>
+            <a
+              class="relative h-8 lg:h-10 w-full rounded-full bg-white text-gray-900 flex justify-center items-center mt-2.5 overflow-hidden"
+              href="#"
+              ><span class="text-xs lg:text-sm mr-12">View portfolio</span>
+              <div
+                class="w-14 lg:w-16 h-7 lg:h-9 absolute right-[2px] bg-emerald-500 rounded-full flex justify-center items-center"
+              >
+                <i class="bi bi-arrow-right text-white text-base"></i></div
+            ></a>
+          </div>
+          <div
+            class="absolute flex justify-center items-center top-2.5 right-2.5 h-10 w-10 bg-black/30 rounded-full backdrop-blur-lg"
+          >
+            <i class="bi bi-arrow-up-right text-white"></i>
+          </div>
+        </div>
+        <!-- 1 -->
+        <div
+          class="relative w-[200px] lg:w-[300px] h-[300px] lg:h-[400px] overflow-hidden rounded-[30px] mr-2.5 lg:mr-5"
+        >
+          <img class="w-full h-full object-cover" src="./src/pf/pf1.jpg" />
+          <div
+            class="absolute z-10 inset-0 bg-linear-to-b from-transparent from-60% to-black/90 to-98%"
+          ></div>
+
+          <div
+            class="w-full absolute z-20 bottom-0 h-max flex flex-col justify-center items-start gap-0.5 px-2.5 pb-2.5 bg-transparent"
+          >
+            <h1 class="text-base lg:text-lg text-white font-medium">
+              Leang Piseth
+            </h1>
+            <p
+              class="text-xs lg:text-sm text-gray-200 text-balance leading-[1.2]"
+            >
+              He is an interior design in our campany over 10years.
+            </p>
+            <a
+              class="relative h-8 lg:h-10 w-full rounded-full bg-white text-gray-900 flex justify-center items-center mt-2.5 overflow-hidden"
+              href="#"
+              ><span class="text-xs lg:text-sm mr-12">View portfolio</span>
+              <div
+                class="w-14 lg:w-16 h-7 lg:h-9 absolute right-[2px] bg-emerald-500 rounded-full flex justify-center items-center"
+              >
+                <i class="bi bi-arrow-right text-white text-base"></i></div
+            ></a>
+          </div>
+          <div
+            class="absolute flex justify-center items-center top-2.5 right-2.5 h-10 w-10 bg-black/30 rounded-full backdrop-blur-lg"
+          >
+            <i class="bi bi-arrow-up-right text-white"></i>
+          </div>
+        </div>
+        <!-- 1 -->
+        <div
+          class="relative w-[200px] lg:w-[300px] h-[300px] lg:h-[400px] overflow-hidden rounded-[30px] mr-2.5 lg:mr-5"
+        >
+          <img class="w-full h-full object-cover" src="./src/pf/pf1.jpg" />
+          <div
+            class="absolute z-10 inset-0 bg-linear-to-b from-transparent from-60% to-black/90 to-98%"
+          ></div>
+
+          <div
+            class="w-full absolute z-20 bottom-0 h-max flex flex-col justify-center items-start gap-0.5 px-2.5 pb-2.5 bg-transparent"
+          >
+            <h1 class="text-base lg:text-lg text-white font-medium">
+              Leang Piseth
+            </h1>
+            <p
+              class="text-xs lg:text-sm text-gray-200 text-balance leading-[1.2]"
+            >
+              He is an interior design in our campany over 10years.
+            </p>
+            <a
+              class="relative h-8 lg:h-10 w-full rounded-full bg-white text-gray-900 flex justify-center items-center mt-2.5 overflow-hidden"
+              href="#"
+              ><span class="text-xs lg:text-sm mr-12">View portfolio</span>
+              <div
+                class="w-14 lg:w-16 h-7 lg:h-9 absolute right-[2px] bg-emerald-500 rounded-full flex justify-center items-center"
+              >
+                <i class="bi bi-arrow-right text-white text-base"></i></div
+            ></a>
+          </div>
+          <div
+            class="absolute flex justify-center items-center top-2.5 right-2.5 h-10 w-10 bg-black/30 rounded-full backdrop-blur-lg"
+          >
+            <i class="bi bi-arrow-up-right text-white"></i>
+          </div>
+        </div>
+        <!-- 1 -->
+        <div
+          class="relative w-[200px] lg:w-[300px] h-[300px] lg:h-[400px] overflow-hidden rounded-[30px] mr-2.5 lg:mr-5"
+        >
+          <img class="w-full h-full object-cover" src="./src/pf/pf1.jpg" />
+          <div
+            class="absolute z-10 inset-0 bg-linear-to-b from-transparent from-60% to-black/90 to-98%"
+          ></div>
+
+          <div
+            class="w-full absolute z-20 bottom-0 h-max flex flex-col justify-center items-start gap-0.5 px-2.5 pb-2.5 bg-transparent"
+          >
+            <h1 class="text-base lg:text-lg text-white font-medium">
+              Leang Piseth
+            </h1>
+            <p
+              class="text-xs lg:text-sm text-gray-200 text-balance leading-[1.2]"
+            >
+              He is an interior design in our campany over 10years.
+            </p>
+            <a
+              class="relative h-8 lg:h-10 w-full rounded-full bg-white text-gray-900 flex justify-center items-center mt-2.5 overflow-hidden"
+              href="#"
+              ><span class="text-xs lg:text-sm mr-12">View portfolio</span>
+              <div
+                class="w-14 lg:w-16 h-7 lg:h-9 absolute right-[2px] bg-emerald-500 rounded-full flex justify-center items-center"
+              >
+                <i class="bi bi-arrow-right text-white text-base"></i></div
+            ></a>
+          </div>
+          <div
+            class="absolute flex justify-center items-center top-2.5 right-2.5 h-10 w-10 bg-black/30 rounded-full backdrop-blur-lg"
+          >
+            <i class="bi bi-arrow-up-right text-white"></i>
+          </div>
+        </div>
+        <!-- 1 -->
+        <div
+          class="relative w-[200px] lg:w-[300px] h-[300px] lg:h-[400px] overflow-hidden rounded-[30px] mr-2.5 lg:mr-5"
+        >
+          <img class="w-full h-full object-cover" src="./src/pf/pf1.jpg" />
+          <div
+            class="absolute z-10 inset-0 bg-linear-to-b from-transparent from-60% to-black/90 to-98%"
+          ></div>
+
+          <div
+            class="w-full absolute z-20 bottom-0 h-max flex flex-col justify-center items-start gap-0.5 px-2.5 pb-2.5 bg-transparent"
+          >
+            <h1 class="text-base lg:text-lg text-white font-medium">
+              Leang Piseth
+            </h1>
+            <p
+              class="text-xs lg:text-sm text-gray-200 text-balance leading-[1.2]"
+            >
+              He is an interior design in our campany over 10years.
+            </p>
+            <a
+              class="relative h-8 lg:h-10 w-full rounded-full bg-white text-gray-900 flex justify-center items-center mt-2.5 overflow-hidden"
+              href="#"
+              ><span class="text-xs lg:text-sm mr-12">View portfolio</span>
+              <div
+                class="w-14 lg:w-16 h-7 lg:h-9 absolute right-[2px] bg-emerald-500 rounded-full flex justify-center items-center"
+              >
+                <i class="bi bi-arrow-right text-white text-base"></i></div
+            ></a>
+          </div>
+          <div
+            class="absolute flex justify-center items-center top-2.5 right-2.5 h-10 w-10 bg-black/30 rounded-full backdrop-blur-lg"
+          >
+            <i class="bi bi-arrow-up-right text-white"></i>
+          </div>
+        </div>
+        <!-- 1 -->
+        <div
+          class="relative w-[200px] lg:w-[300px] h-[300px] lg:h-[400px] overflow-hidden rounded-[30px] mr-2.5 lg:mr-5"
+        >
+          <img class="w-full h-full object-cover" src="./src/pf/pf1.jpg" />
+          <div
+            class="absolute z-10 inset-0 bg-linear-to-b from-transparent from-60% to-black/90 to-98%"
+          ></div>
+
+          <div
+            class="w-full absolute z-20 bottom-0 h-max flex flex-col justify-center items-start gap-0.5 px-2.5 pb-2.5 bg-transparent"
+          >
+            <h1 class="text-base lg:text-lg text-white font-medium">
+              Leang Piseth
+            </h1>
+            <p
+              class="text-xs lg:text-sm text-gray-200 text-balance leading-[1.2]"
+            >
+              He is an interior design in our campany over 10years.
+            </p>
+            <a
+              class="relative h-8 lg:h-10 w-full rounded-full bg-white text-gray-900 flex justify-center items-center mt-2.5 overflow-hidden"
+              href="#"
+              ><span class="text-xs lg:text-sm mr-12">View portfolio</span>
+              <div
+                class="w-14 lg:w-16 h-7 lg:h-9 absolute right-[2px] bg-emerald-500 rounded-full flex justify-center items-center"
+              >
+                <i class="bi bi-arrow-right text-white text-base"></i></div
+            ></a>
+          </div>
+          <div
+            class="absolute flex justify-center items-center top-2.5 right-2.5 h-10 w-10 bg-black/30 rounded-full backdrop-blur-lg"
+          >
+            <i class="bi bi-arrow-up-right text-white"></i>
+          </div>
+        </div>
+        <!-- 1 -->
+        <div
+          class="relative w-[200px] lg:w-[300px] h-[300px] lg:h-[400px] overflow-hidden rounded-[30px] mr-2.5 lg:mr-5"
+        >
+          <img class="w-full h-full object-cover" src="./src/pf/pf1.jpg" />
+          <div
+            class="absolute z-10 inset-0 bg-linear-to-b from-transparent from-60% to-black/90 to-98%"
+          ></div>
+
+          <div
+            class="w-full absolute z-20 bottom-0 h-max flex flex-col justify-center items-start gap-0.5 px-2.5 pb-2.5 bg-transparent"
+          >
+            <h1 class="text-base lg:text-lg text-white font-medium">
+              Leang Piseth
+            </h1>
+            <p
+              class="text-xs lg:text-sm text-gray-200 text-balance leading-[1.2]"
+            >
+              He is an interior design in our campany over 10years.
+            </p>
+            <a
+              class="relative h-8 lg:h-10 w-full rounded-full bg-white text-gray-900 flex justify-center items-center mt-2.5 overflow-hidden"
+              href="#"
+              ><span class="text-xs lg:text-sm mr-12">View portfolio</span>
+              <div
+                class="w-14 lg:w-16 h-7 lg:h-9 absolute right-[2px] bg-emerald-500 rounded-full flex justify-center items-center"
+              >
+                <i class="bi bi-arrow-right text-white text-base"></i></div
+            ></a>
+          </div>
+          <div
+            class="absolute flex justify-center items-center top-2.5 right-2.5 h-10 w-10 bg-black/30 rounded-full backdrop-blur-lg"
+          >
+            <i class="bi bi-arrow-up-right text-white"></i>
+          </div>
+        </div>
+        <!-- 1 -->
+        <div
+          class="relative w-[200px] lg:w-[300px] h-[300px] lg:h-[400px] overflow-hidden rounded-[30px] mr-2.5 lg:mr-5"
+        >
+          <img class="w-full h-full object-cover" src="./src/pf/pf1.jpg" />
+          <div
+            class="absolute z-10 inset-0 bg-linear-to-b from-transparent from-60% to-black/90 to-98%"
+          ></div>
+
+          <div
+            class="w-full absolute z-20 bottom-0 h-max flex flex-col justify-center items-start gap-0.5 px-2.5 pb-2.5 bg-transparent"
+          >
+            <h1 class="text-base lg:text-lg text-white font-medium">
+              Leang Piseth
+            </h1>
+            <p
+              class="text-xs lg:text-sm text-gray-200 text-balance leading-[1.2]"
+            >
+              He is an interior design in our campany over 10years.
+            </p>
+            <a
+              class="relative h-8 lg:h-10 w-full rounded-full bg-white text-gray-900 flex justify-center items-center mt-2.5 overflow-hidden"
+              href="#"
+              ><span class="text-xs lg:text-sm mr-12">View portfolio</span>
+              <div
+                class="w-14 lg:w-16 h-7 lg:h-9 absolute right-[2px] bg-emerald-500 rounded-full flex justify-center items-center"
+              >
+                <i class="bi bi-arrow-right text-white text-base"></i></div
+            ></a>
+          </div>
+          <div
+            class="absolute flex justify-center items-center top-2.5 right-2.5 h-10 w-10 bg-black/30 rounded-full backdrop-blur-lg"
+          >
+            <i class="bi bi-arrow-up-right text-white"></i>
+          </div>
+        </div>
+        <!-- 1 -->
+        <div
+          class="relative w-[200px] lg:w-[300px] h-[300px] lg:h-[400px] overflow-hidden rounded-[30px] mr-2.5 lg:mr-5"
+        >
+          <img class="w-full h-full object-cover" src="./src/pf/pf1.jpg" />
+          <div
+            class="absolute z-10 inset-0 bg-linear-to-b from-transparent from-60% to-black/90 to-98%"
+          ></div>
+
+          <div
+            class="w-full absolute z-20 bottom-0 h-max flex flex-col justify-center items-start gap-0.5 px-2.5 pb-2.5 bg-transparent"
+          >
+            <h1 class="text-base lg:text-lg text-white font-medium">
+              Leang Piseth
+            </h1>
+            <p
+              class="text-xs lg:text-sm text-gray-200 text-balance leading-[1.2]"
+            >
+              He is an interior design in our campany over 10years.
+            </p>
+            <a
+              class="relative h-8 lg:h-10 w-full rounded-full bg-white text-gray-900 flex justify-center items-center mt-2.5 overflow-hidden"
+              href="#"
+              ><span class="text-xs lg:text-sm mr-12">View portfolio</span>
+              <div
+                class="w-14 lg:w-16 h-7 lg:h-9 absolute right-[2px] bg-emerald-500 rounded-full flex justify-center items-center"
+              >
+                <i class="bi bi-arrow-right text-white text-base"></i></div
+            ></a>
+          </div>
+          <div
+            class="absolute flex justify-center items-center top-2.5 right-2.5 h-10 w-10 bg-black/30 rounded-full backdrop-blur-lg"
+          >
+            <i class="bi bi-arrow-up-right text-white"></i>
+          </div>
+        </div>
+        <!-- 1 -->
+        <div
+          class="relative w-[200px] lg:w-[300px] h-[300px] lg:h-[400px] overflow-hidden rounded-[30px] mr-2.5 lg:mr-5"
+        >
+          <img class="w-full h-full object-cover" src="./src/pf/pf1.jpg" />
+          <div
+            class="absolute z-10 inset-0 bg-linear-to-b from-transparent from-60% to-black/90 to-98%"
+          ></div>
+
+          <div
+            class="w-full absolute z-20 bottom-0 h-max flex flex-col justify-center items-start gap-0.5 px-2.5 pb-2.5 bg-transparent"
+          >
+            <h1 class="text-base lg:text-lg text-white font-medium">
+              Leang Piseth
+            </h1>
+            <p
+              class="text-xs lg:text-sm text-gray-200 text-balance leading-[1.2]"
+            >
+              He is an interior design in our campany over 10years.
+            </p>
+            <a
+              class="relative h-8 lg:h-10 w-full rounded-full bg-white text-gray-900 flex justify-center items-center mt-2.5 overflow-hidden"
+              href="#"
+              ><span class="text-xs lg:text-sm mr-12">View portfolio</span>
+              <div
+                class="w-14 lg:w-16 h-7 lg:h-9 absolute right-[2px] bg-emerald-500 rounded-full flex justify-center items-center"
+              >
+                <i class="bi bi-arrow-right text-white text-base"></i></div
+            ></a>
+          </div>
+          <div
+            class="absolute flex justify-center items-center top-2.5 right-2.5 h-10 w-10 bg-black/30 rounded-full backdrop-blur-lg"
+          >
+            <i class="bi bi-arrow-up-right text-white"></i>
+          </div>
+        </div>
+      </div>
+    </section>
