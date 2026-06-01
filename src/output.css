@@ -52,6 +52,8 @@
     --text-7xl--line-height: 1;
     --text-9xl: 8rem;
     --text-9xl--line-height: 1;
+    --font-weight-thin: 100;
+    --font-weight-light: 300;
     --font-weight-normal: 400;
     --font-weight-medium: 500;
     --font-weight-semibold: 600;
@@ -537,6 +539,9 @@
   }
   .h-\[450px\] {
     height: 450px;
+  }
+  .h-\[460px\] {
+    height: 460px;
   }
   .h-\[480px\] {
     height: 480px;
@@ -1155,6 +1160,9 @@
   .text-\[150px\] {
     font-size: 150px;
   }
+  .text-\[200px\] {
+    font-size: 200px;
+  }
   .text-\[300px\] {
     font-size: 300px;
   }
@@ -1204,6 +1212,10 @@
     --tw-font-weight: var(--font-weight-bold);
     font-weight: var(--font-weight-bold);
   }
+  .font-light {
+    --tw-font-weight: var(--font-weight-light);
+    font-weight: var(--font-weight-light);
+  }
   .font-medium {
     --tw-font-weight: var(--font-weight-medium);
     font-weight: var(--font-weight-medium);
@@ -1215,6 +1227,10 @@
   .font-semibold {
     --tw-font-weight: var(--font-weight-semibold);
     font-weight: var(--font-weight-semibold);
+  }
+  .font-thin {
+    --tw-font-weight: var(--font-weight-thin);
+    font-weight: var(--font-weight-thin);
   }
   .tracking-tight {
     --tw-tracking: var(--tracking-tight);
@@ -1229,6 +1245,9 @@
   }
   .text-nowrap {
     text-wrap: nowrap;
+  }
+  .text-pretty {
+    text-wrap: pretty;
   }
   .text-wrap {
     text-wrap: wrap;
