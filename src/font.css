@@ -1,5 +1,6 @@
 * {
   font-family: 'Bebas Neue', sans-serif;
+  scrollbar-width: none;
 }
 .animate {
   animation: zoom 3s cubic-bezier(0.22, 1.03, 0.52, 0.99) alternate;
@@ -84,5 +85,141 @@
   }
   100% {
     transform: translateY(0);
+  }
+}
+.scroll {
+  animation: auto-scroll 40s linear infinite;
+}
+@keyframes auto-scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+.scroll1 {
+  animation: auto-scroll1 40s linear infinite;
+}
+@keyframes auto-scroll1 {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(50%);
+  }
+}
+.animate-heart {
+  animation: heart 1s cubic-bezier(0.71, 0.15, 0.3, 0.85) infinite;
+}
+@keyframes heart {
+  0% {
+    scale: 1;
+  }
+  40% {
+    scale: 1.05;
+  }
+  100% {
+    scale: 1;
+  }
+}
+.animate-swap-left {
+  animation: swap-left 8s cubic-bezier(0.75, 0.01, 0.24, 0.99) infinite;
+}
+@keyframes swap-left {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-71%);
+  }
+  75% {
+    transform: translateX(-71%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+.animate-swap-right {
+  animation: swap-right 8s cubic-bezier(0.75, 0.01, 0.24, 0.99) infinite;
+}
+@keyframes swap-right {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(63%);
+  }
+  75% {
+    transform: translateX(63%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+.animate-fill {
+  animation: fill 8s cubic-bezier(0.75, 0.01, 0.24, 0.99) infinite;
+}
+@keyframes fill {
+  0% {
+    width: 0;
+  }
+  25% {
+    width: 100%;
+  }
+  75% {
+    width: 100%;
+  }
+  90% {
+    width: 0;
+  }
+  100% {
+    width: 0;
+  }
+}
+.animate-color {
+  animation: animate-color 8s cubic-bezier(0.75, 0.01, 0.24, 0.99) infinite;
+}
+@keyframes animate-color {
+  0% {
+    color: #f25623;
+  }
+  25% {
+    color: white;
+  }
+  75% {
+    color: white;
+  }
+  90% {
+    color: #f25623;
+  }
+  100% {
+    color: #f25623;
+  }
+}
+.animate-opacity {
+  animation: animate-opacity 8s cubic-bezier(0.75, 0.01, 0.24, 0.99) infinite;
+}
+@keyframes animate-opacity {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
   }
 }
