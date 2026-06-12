@@ -54,7 +54,6 @@
       >
         byteforge
       </h1>
-      <!-- <div class="w-[1.5px] h-1/2 rounded-full bg-gray-300"></div> -->
       <a
         class="absolute left-0-5 text-sm text-white flex justify-center items-center gap-1"
         href="index.html"
@@ -113,7 +112,7 @@
       </h1>
     </div>
     <section
-      class="relative w-screen h-max flex flex-col justify-center items-center px-5 mt-24 py-20 bg-black"
+      class="relative w-screen h-max flex flex-col justify-center items-center px-2.5 lg:px-5 mt-24 py-20 bg-black"
     >
       <div
         class="absolute z-10 w-full h-full bg-linear-to-t from-80% from-transparent to-[98%] to-black"
@@ -135,10 +134,12 @@
       >
         Explore pricing line up
       </h1>
-      <div class="w-full h-max flex justify-between items-start mt-5">
+      <div
+        class="w-full h-max flex-col justify-start items-center mt-5 lg:flex-row lg:justify-between lg:items-start"
+      >
         <!-- left -->
         <div
-          class="w-[calc(100%/3-40px/3)] h-max flex flex-col justify-start items-center gap-5"
+          class="lg:lg:w-[calc(100%/3-40px/3)] w-full h-max flex flex-col justify-start items-center gap-2.5 lg:gap-5 mt-2.5"
         >
           <div
             class="relative z-10 w-full h-max flex justify-center items-center p-[5px] rounded-[35px] bg-white/20 overflow-hidden"
@@ -329,7 +330,7 @@
         </div>
         <!-- middle -->
         <div
-          class="w-[calc(100%/3-40px/3)] h-max flex flex-col justify-start items-center gap-5"
+          class="lg:w-[calc(100%/3-40px/3)] w-full h-max flex flex-col justify-start items-center gap-2.5 lg:gap-5 mt-2.5"
         >
           <div
             class="relative z-10 w-full h-max flex justify-center items-center p-[5px] rounded-[35px] bg-white/20 overflow-hidden"
@@ -536,7 +537,7 @@
         </div>
         <!-- right -->
         <div
-          class="w-[calc(100%/3-40px/3)] h-max flex flex-col justify-start items-center gap-5"
+          class="lg:w-[calc(100%/3-40px/3)] w-full h-max flex flex-col justify-start items-center gap-2.5 lg:gap-5 mt-2.5"
         >
           <div
             class="relative z-10 w-full h-max flex justify-center items-center p-[5px] rounded-[35px] bg-white/20 overflow-hidden"
@@ -740,7 +741,9 @@
     <footer
       class="w-screen h-max bg-black flex flex-col justify-center items-center pt-14"
     >
-      <div class="w-full h-max flex flex-row justify-evenly items-start">
+      <div
+        class="w-full h-max flex flex-col lg:flex-row justify-start lg:justify-evenly items-start gap-5 pl-5 lg:gap-0 lg:pl-0"
+      >
         <div class="flex flex-col justify-start items-start gap-2.5">
           <p class="text-2xl font-medium tracking-tight text-white">
             Quick link
@@ -843,48 +846,67 @@
       <div
         class="w-full h-max flex justify-between items-center px-5 overflow-hidden"
       >
-        <h1 class="uppercase font-bold text-lime-300 text-[200px] leading-[1]">
+        <h1
+          class="uppercase font-bold text-lime-300 text-6xl lg:text-[200px] leading-[1]"
+        >
           b
         </h1>
-        <h1 class="uppercase font-bold text-lime-300 text-[200px] leading-[1]">
+        <h1
+          class="uppercase font-bold text-lime-300 text-6xl lg:text-[200px] leading-[1]"
+        >
           y
         </h1>
-        <h1 class="uppercase font-bold text-lime-300 text-[200px] leading-[1]">
+        <h1
+          class="uppercase font-bold text-lime-300 text-6xl lg:text-[200px] leading-[1]"
+        >
           t
         </h1>
-        <h1 class="uppercase font-bold text-lime-300 text-[200px] leading-[1]">
+        <h1
+          class="uppercase font-bold text-lime-300 text-6xl lg:text-[200px] leading-[1]"
+        >
           e
         </h1>
-        <h1 class="uppercase font-bold text-lime-300 text-[200px] leading-[1]">
+        <h1
+          class="uppercase font-bold text-lime-300 text-6xl lg:text-[200px] leading-[1]"
+        >
           f
         </h1>
-        <h1 class="uppercase font-bold text-lime-300 text-[200px] leading-[1]">
+        <h1
+          class="uppercase font-bold text-lime-300 text-6xl lg:text-[200px] leading-[1]"
+        >
           o
         </h1>
-        <h1 class="uppercase font-bold text-lime-300 text-[200px] leading-[1]">
+        <h1
+          class="uppercase font-bold text-lime-300 text-6xl lg:text-[200px] leading-[1]"
+        >
           r
         </h1>
-        <h1 class="uppercase font-bold text-lime-300 text-[200px] leading-[1]">
+        <h1
+          class="uppercase font-bold text-lime-300 text-6xl lg:text-[200px] leading-[1]"
+        >
           g
         </h1>
-        <h1 class="uppercase font-bold text-lime-300 text-[200px] leading-[1]">
+        <h1
+          class="uppercase font-bold text-lime-300 text-6xl lg:text-[200px] leading-[1]"
+        >
           e
         </h1>
       </div>
       <div
-        class="h-16 w-[calc(100%-40px)] flex justify-between items-center rounded-full bg-lime-300 my-10 pl-5 pr-1"
+        class="h-12 lg:h-16 w-full mx-2.5 lg:mx-0 lg:w-[calc(100%-40px)] flex justify-between items-center rounded-full bg-lime-300 my-14 lg:my-10 pl-2.5 lg:pl-5 lg:pr-1 pr-[2px]"
       >
         <h1
-          class="uppercase text-4xl font-semibold text-lime-800 tracking-tighter"
+          class="uppercase text-sm lg:text-4xl font-semibold text-lime-800 tracking-tighter"
         >
           Mony Pisal
         </h1>
-        <p class="text-lime-800">
-          2026 - Copyright Byteforge alright reversed.
+        <p class="text-lime-800 lg:text-base text-[8px] text-center">
+          2026 - Copyright Byteforge <br class="lg:hidden block" />
+          alright reversed.
         </p>
         <a
           href="#"
-          class="h-14 w-48 rounded-full bg-gray-950 text-white flex justify-center uppercase items-center"
+          class="h-11 lg:h-14 w-max lg:px-0 px-2.5 lg:w-48 rounded-full bg-gray-950 text-white flex justify-center uppercase items-center lg:text-base text-xs"
         >
           get in touch
         </a>
