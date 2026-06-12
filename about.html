@@ -57,7 +57,7 @@
       class="fixed lg:absolute z-[999] inset-x-2.5 bottom-2.5 lg:top-5 h-14 rounded-full bg-white px-2.5 flex justify-between items-center transition duration-200"
     >
       <h1
-        class="absolute left-1/2 -translate-x-1/2 uppercase text-4xl font-semibold text-black"
+        class="absolute left-1/2 -translate-x-1/2 uppercase text-xl lg:text-4xl font-semibold text-black"
       >
         byteforge
       </h1>
@@ -66,12 +66,15 @@
         class="absolute left-0-5 text-base text-black flex justify-center items-center gap-0.5"
         href="index.html"
         ><i class="bi bi-arrow-left-short text-2xl"></i
-        ><span>Back to home page</span>
+        ><span class="lg:flex hidden">Back to home page</span>
+        <span class="lg:hidden flex">Back</span>
       </a>
       <div
         class="absolute right-1 h-full flex flex-row justify-end items-center gap-5"
       >
-        <button class="h-[86%] text-sm px-10 rounded-full text-white bg-black">
+        <button
+          class="h-[86%] text-sm lg:px-10 px-5 rounded-full text-white bg-black"
+        >
           Get in touch
         </button>
       </div>
