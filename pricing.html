@@ -47,10 +47,10 @@
   </head>
   <body>
     <nav
-      class="fixed z-[999] inset-x-12 top-5 h-14 rounded-full bg-linear-to-r from-indigo-700/40 to-purple-700/40 px-2.5 flex justify-between items-center transition duration-200 backdrop-blur-3xl"
+      class="fixed z-[999] inset-x-2.5 top-2.5 lg:top-5 h-14 rounded-full bg-linear-to-r from-indigo-700/40 to-purple-700/40 px-2.5 flex justify-between items-center transition duration-200 backdrop-blur-3xl"
     >
       <h1
-        class="absolute left-1/2 -translate-x-1/2 uppercase text-3xl tracking-tight font-semibold text-white"
+        class="absolute left-1/2 -translate-x-1/2 uppercase text-lg lg:text-3xl tracking-tight font-semibold text-white"
       >
         byteforge
       </h1>
@@ -58,12 +58,16 @@
       <a
         class="absolute left-0-5 text-sm text-white flex justify-center items-center gap-1"
         href="index.html"
-        ><i class="bi bi-arrow-left"></i><span>Back to home page</span>
+        ><i class="bi bi-arrow-left"></i
+        ><span class="lg:flex hidden">Back to home page</span
+        ><span class="lg:hidden flex">Back</span>
       </a>
       <div
         class="absolute right-1 h-full flex flex-row justify-end items-center gap-5"
       >
-        <button class="h-[86%] text-sm px-5 rounded-full text-black bg-white">
+        <button
+          class="h-[86%] text-xs lg:text-sm lg:px-5 px-2.5 rounded-full text-black bg-white"
+        >
           Get in touch
         </button>
       </div>
@@ -117,6 +121,10 @@
       <div
         class="absolute z-0 w-full h-full flex justify-center items-center overflow-hidden"
       >
+        <!-- <img
+          class="w-full h-full blur-2xl"
+          src="./src/bg/TEXTURE - GREEN.jpg"
+        /> -->
         <img
           class="w-full h-full blur-2xl"
           src="./src/bg/TEXTURE - GREEN.jpg"
