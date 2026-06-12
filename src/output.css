@@ -1777,6 +1777,11 @@
       line-height: var(--tw-leading, var(--text-3xl--line-height));
     }
   }
+  .lg\:absolute {
+    @media (width >= 64rem) {
+      position: absolute;
+    }
+  }
   .lg\:inset-x-12 {
     @media (width >= 64rem) {
       inset-inline: calc(var(--spacing) * 12);
