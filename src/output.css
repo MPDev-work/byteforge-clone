@@ -16,6 +16,7 @@
     --color-lime-800: oklch(45.3% 0.124 130.933);
     --color-emerald-500: oklch(69.6% 0.17 162.48);
     --color-emerald-600: oklch(59.6% 0.145 163.225);
+    --color-emerald-800: oklch(43.2% 0.095 166.913);
     --color-emerald-900: oklch(37.8% 0.077 168.94);
     --color-sky-600: oklch(58.8% 0.158 241.966);
     --color-indigo-600: oklch(51.1% 0.262 276.966);
@@ -1690,6 +1691,9 @@
   }
   .text-emerald-600 {
     color: var(--color-emerald-600);
+  }
+  .text-emerald-800 {
+    color: var(--color-emerald-800);
   }
   .text-emerald-900 {
     color: var(--color-emerald-900);
