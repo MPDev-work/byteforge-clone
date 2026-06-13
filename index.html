@@ -43,17 +43,35 @@
   </head>
   <body id="body" class="overflow-x-hidden">
     <nav
-      class="fixed z-[999] inset-x-12 top-5 h-14 rounded-full bg-white px-2.5 flex justify-between items-center transition duration-200"
+      class="fixed z-[999] inset-x-2.5 lg:inset-x-12 top-5 h-14 rounded-full bg-white px-2.5 flex justify-between items-center transition duration-200"
     >
       <div
-        class="absolute left-1/2 -translate-x-1/2 h-full flex flex-row justify-start items-center gap-1.5"
+        class="absolute left-[40%] lg:left-1/2 -translate-x-1/2 h-full flex flex-row justify-start items-center gap-1.5"
       >
         <span
-          class="uppercase text-base font-semibold tracking-tight text-black sm:text-3xl"
+          class="uppercase text-xl font-semibold tracking-tight text-black sm:text-3xl"
         >
           ByteForge
         </span>
       </div>
+      <i class="bi bi-list text-2xl ml-2.5 lg:hidden block"></i>
+      <ul class="flex justify-center items-center gap-3 mr-1 lg:hidden">
+        <li>
+          <a
+            class="text-black text-sm transition duration-200 hover:text-red-700"
+            href="./about.html"
+            >About</a
+          >
+        </li>
+        <li>
+          <a
+            class="text-black text-sm transition duration-200 hover:text-red-700"
+            href="./pricing.html"
+            >Pricing</a
+          >
+        </li>
+      </ul>
+
       <ul
         class="hidden absolute left-5 flex-row justify-start items-center gap-6 lg:flex"
       >
@@ -101,7 +119,7 @@
         </li>
       </ul>
       <div
-        class="absolute right-1 h-full flex flex-row justify-end items-center gap-5"
+        class="absolute right-1 h-full flex-row justify-end items-center gap-5 lg:flex hidden"
       >
         <button class="h-[86%] text-sm px-5 rounded-full text-white bg-black">
           Get in touch
@@ -1073,7 +1091,7 @@
     <!-- procces -->
     <section
       id="contact"
-      class="relative w-screen h-screen min-h-[630px] flex justify-center items-center mt-20"
+      class="relative w-screen h-dvh min-h-[630px] flex justify-center items-center mt-20"
     >
       <div
         class="relative w-full h-full flex justify-center items-center overflow-hidden"
@@ -1096,13 +1114,16 @@
         ></div>
       </div>
       <div
-        class="absolute z-20 w-full h-full flex flex-col justify-center items-center px-20 gap-2.5"
+        class="absolute z-20 w-full h-full flex flex-col justify-center items-center px-2.5 lg:px-20 gap-2.5"
       >
-        <h1 class="text-center text-7xl text-white font-medium text-balance">
-          Let's make your next move with
-          <span class="text-emerald-500">BtyeForge</span>.
+        <h1
+          class="text-3xl lg:text-7xl text-white font-medium lg:text-balance block text-center"
+        >
+          Let's make your next move with<span class="text-emerald-500"
+            >BtyeForge</span
+          >.
         </h1>
-        <p class="text-2xl font-medium text-gray-100">
+        <p class="text-base lg:text-2xl font-medium text-gray-100 text-center">
           Trust by
           <span class="text-white px-2.5 rounded-full bg-emerald-500"
             >+2000</span
@@ -1110,7 +1131,7 @@
           companies world wide.
         </p>
         <form
-          class="group lg:h-14 h-12 relative lg:w-1/2 lg:bottom-5 flex flex-row justify-center items-center mt-2 lg:mt-7"
+          class="group lg:h-14 h-12 relative w-full lg:w-1/2 lg:bottom-5 flex flex-row justify-center items-center mt-2 lg:mt-7"
         >
           <input
             class="w-full h-full border border-gray-300 rounded-full text-sm pl-5 lg:pr-[180px] pr-[140px] transition duration-200 group-hover:border-1 group-hover:border-emerald-500 focus:border-1 focus:border-emerald-500 focus:outline-0 text-black bg-white"
