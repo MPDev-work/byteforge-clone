@@ -256,10 +256,10 @@
       transform: translateX(0);
     }
     50% {
-      transform: translateX(40%);
+      transform: translateX(38%);
     }
     75% {
-      transform: translateX(40%);
+      transform: translateX(38%);
     }
     100% {
       transform: translateX(0);
